@@ -1,0 +1,14 @@
+# Mac OS X
+*.DS_Store
+
+# Generated files
+*.o
+*.hi
+site
+_cache
+_site
+
+# Backup files
+*~.nib
+\#*#
+.#*
