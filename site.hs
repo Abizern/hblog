@@ -2,6 +2,8 @@
 {-# LANGUAGE OverloadedStrings #-}
 import           Data.Monoid (mappend)
 import           Hakyll
+import           Data.List              (isInfixOf)
+import           System.FilePath.Posix  (takeBaseName,takeDirectory,(</>),splitFileName)
 
 
 --------------------------------------------------------------------------------
@@ -22,11 +24,12 @@ main = hakyll $ do
             >>= relativizeUrls
 
     match "posts/*" $ do
-        route $ setExtension "html"
+        route niceDateRoute
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
+            >>= removeIndexHtml
 
     create ["archive.html"] $ do
         route idRoute
@@ -52,6 +55,7 @@ main = hakyll $ do
                 >>= applyAsTemplate indexCtx
                 >>= loadAndApplyTemplate "templates/default.html" postCtx
                 >>= relativizeUrls
+                >>= removeIndexHtml
 
     match "templates/*" $ compile templateCompiler
 
@@ -70,3 +74,33 @@ postList sortFilter = do
     itemTpl <- loadBody "templates/post-item.html"
     list    <- applyTemplateList itemTpl postCtx posts
     return list
+
+--------------------------------------------------------------------------------
+dateRoute :: Routes
+dateRoute = gsubRoute "posts/" (const "") `composeRoutes`
+            gsubRoute "[0-9]{4}-[0-9]{2}-[0-9]{2}-" (map replaceChars)
+  where
+    replaceChars c | c == '-' || c == '_' = '/'
+                   | otherwise = c
+
+niceRoute :: Routes
+niceRoute = customRoute createIndexRoute
+  where
+    createIndexRoute ident =
+      takeDirectory p </> takeBaseName p </> "index.html"
+      where
+        p = toFilePath ident
+
+niceDateRoute :: Routes
+niceDateRoute = composeRoutes dateRoute niceRoute
+
+-- replace url of the form foo/bar/index.html by foo/bar
+removeIndexHtml :: Item String -> Compiler (Item String)
+removeIndexHtml item = return $ fmap (withUrls removeIndexStr) item
+
+removeIndexStr :: String -> String
+removeIndexStr url = case splitFileName url of
+    (dir, "index.html") | isLocal dir -> dir
+                        | otherwise   -> url
+    _                                 -> url
+    where isLocal uri = not ("://" `isInfixOf` uri)
