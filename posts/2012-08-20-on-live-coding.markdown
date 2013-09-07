@@ -1,6 +1,6 @@
 ---
-title: "On Live Coding"
-tags: programming, haskell, ruby
+title: On Live Coding
+tags: haskell, ruby
 ---
 
 I read somewhere that part of the popularity of

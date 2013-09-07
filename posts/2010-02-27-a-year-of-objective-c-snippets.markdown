@@ -1,5 +1,5 @@
 ---
-title: 'A Year Of Objective-C Snippets '
+title: A Year Of Objective-C Snippets
 tags: objective-c
 ---
 

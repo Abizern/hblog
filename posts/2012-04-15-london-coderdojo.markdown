@@ -1,5 +1,5 @@
 ---
-title: "London CoderDojo"
+title: London CoderDojo
 tags: programming
 ---
 

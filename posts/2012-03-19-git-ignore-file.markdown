@@ -1,5 +1,5 @@
 ---
-title: "Git Ignore file"
+title: Git Ignore file
 tags: git
 ---
 

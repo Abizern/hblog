@@ -1,5 +1,5 @@
 ---
-title: "Hello Octopress"
+title: Hello Octopress
 tags: meta
 ---
 

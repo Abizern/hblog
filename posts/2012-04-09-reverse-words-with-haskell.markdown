@@ -1,6 +1,6 @@
 ---
-title: "Reverse Words With Haskell"
-tags: haskell, video
+title: Reverse Words With Haskell
+tags: haskell
 ---
 
 As part of my preparation for [Google Code Jam](http://code.google.com/codejam)

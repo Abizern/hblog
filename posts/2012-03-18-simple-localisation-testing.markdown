@@ -1,5 +1,5 @@
 ---
-title: "Simple Localisation Testing"
+title: Simple Localisation Testing
 tags: osx, ios
 ---
 

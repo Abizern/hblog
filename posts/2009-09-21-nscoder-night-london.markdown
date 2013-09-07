@@ -1,6 +1,6 @@
 ---
 title: NSCoder Night London
-tags: nscoder night
+tags: nscodernight
 ---
 
 It's surprising that there isn't an [NSCoder Night](http://nscodernight.com)

@@ -1,5 +1,5 @@
 ---
-title: "Correcting Brace Layout"
+title: Correcting Brace Layout
 tags: ruby, objective-c, programming
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Commanding Your Text Editor"
+title: Commanding Your Text Editor
 tags: programming, emacs
 ---
 

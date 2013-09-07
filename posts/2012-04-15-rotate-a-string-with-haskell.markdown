@@ -1,5 +1,5 @@
 ---
-title: "Rotate A String with Haskell"
+title: Rotate A String with Haskell
 tags: haskell
 ---
 

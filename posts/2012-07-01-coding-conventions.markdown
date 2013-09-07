@@ -1,5 +1,5 @@
 ---
-title: "Coding Conventions"
+title: Coding Conventions
 tags: osx, ios
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "A Reason To Learn Lisp"
+title: A Reason To Learn Lisp
 tags: emacs
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: "An improved Reverse Words Script"
-tags: haskell
+title: An improved Reverse Words Script
+tags: haskell, programming
 ---
 
 About 6 months ago I posted

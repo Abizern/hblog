@@ -1,5 +1,5 @@
 ---
-title: "UUID Strings with Cocoa"
+title: UUID Strings with Cocoa
 tags: osx, ios
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Missing Xcode Toolbar"
+title: Missing Xcode Toolbar
 tags: ios, osx, xcode
 ---
 

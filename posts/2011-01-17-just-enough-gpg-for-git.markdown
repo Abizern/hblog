@@ -1,6 +1,6 @@
 ---
 title: Just Enough GPG for git
-tags: osx, web, git
+tags: osx, git
 ---
 
 It came about that I wanted to do some work with git and signed tags. It's been

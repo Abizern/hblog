@@ -1,5 +1,5 @@
 ---
-title: "Setting up for Lisp on OS X"
+title: Setting up for Lisp on OS X
 tags: osx, emacs, lisp
 ---
 

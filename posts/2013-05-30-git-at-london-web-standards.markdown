@@ -1,5 +1,5 @@
 ---
-title: "Git at London Web Standards"
+title: Git at London Web Standards
 tags: git, presentations
 ---
 

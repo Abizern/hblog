@@ -1,5 +1,5 @@
 ---
-title: "Book Stack June 2012"
+title: Book Stack June 2012
 tags: personal, books
 ---
 
