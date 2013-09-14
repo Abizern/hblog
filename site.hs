@@ -2,7 +2,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 import           Data.Monoid (mappend)
 import           Hakyll
-import           Data.List              (isInfixOf)
+import           Data.List   (isInfixOf)
 import           System.FilePath.Posix  (takeBaseName,takeDirectory,(</>),splitFileName)
 
 
@@ -14,8 +14,10 @@ main = hakyll $ do
         compile copyFileCompiler
 
     match "css/*" $ do
-        route   idRoute
-        compile compressCssCompiler
+        route $ setExtension "css"
+        compile $ getResourceString >>=
+          withItemBody (unixFilter "sass" ["-s", "--scss"]) >>=
+          return .fmap compressCss
 
     match (fromList ["about.rst", "contact.markdown"]) $ do
         route   $ setExtension "html"
