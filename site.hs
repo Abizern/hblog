@@ -84,7 +84,7 @@ dateRoute = gsubRoute "posts/" (const "") `composeRoutes`
   where
     replaceChars c | c == '-' || c == '_' = '/'
                    | otherwise = c
-
+--------------------------------------------------------------------------------
 niceRoute :: Routes
 niceRoute = customRoute createIndexRoute
   where
@@ -93,13 +93,18 @@ niceRoute = customRoute createIndexRoute
       where
         p = toFilePath ident
 
+--------------------------------------------------------------------------------
+-- |Turns 2012-02-01-post.html into 2012/02/01/post/index.html
 niceDateRoute :: Routes
 niceDateRoute = composeRoutes dateRoute niceRoute
 
--- replace url of the form foo/bar/index.html by foo/bar
+--------------------------------------------------------------------------------
+-- |Replace an url of the form foo/bar/index.html by foo/bar
 removeIndexHtml :: Item String -> Compiler (Item String)
 removeIndexHtml item = return $ fmap (withUrls removeIndexStr) item
 
+--------------------------------------------------------------------------------
+-- |Removes the .html component of a URL if it is local
 removeIndexStr :: String -> String
 removeIndexStr url = case splitFileName url of
     (dir, "index.html") | isLocal dir -> dir
