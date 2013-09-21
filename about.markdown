@@ -1,10 +1,8 @@
 ---
-layout: page
-title: "about"
-footer: false
+title: About
 ---
 
-{% img left http://images.abizern.org.s3.amazonaws.com/site/avatar_photo.jpg 240 180 'avatar photo' %}
+![Avatar Photo](http://images.abizern.org.s3.amazonaws.com/site/avatar_photo.jpg)
 
 I'm an independent Mac OS and iOS developer and Git fiend in London. I use
 Xcode, and Emacs. I have a collection of fountain pens, I ride a fixed wheel

@@ -1,8 +1,8 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
-import           Data.Monoid (mappend)
 import           Hakyll
-import           Data.List   (isInfixOf)
+import           Data.Monoid (mappend)
+import           Data.List (isInfixOf)
 import           System.FilePath.Posix  (takeBaseName,takeDirectory,(</>),splitFileName)
 
 
@@ -19,7 +19,7 @@ main = hakyll $ do
           withItemBody (unixFilter "sass" ["-s", "--scss"]) >>=
           return .fmap compressCss
 
-    match (fromList ["about.rst", "contact.markdown"]) $ do
+    match (fromList ["about.markdown", "contact.markdown", "cocoa-coding-conventions.markdown"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
