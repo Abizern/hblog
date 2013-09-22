@@ -13,11 +13,9 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "css/*" $ do
+    match "css/main.scss" $ do
         route $ setExtension "css"
-        compile $ getResourceString >>=
-          withItemBody (unixFilter "sass" ["-s", "--scss"]) >>=
-          return .fmap compressCss
+        compile $ getResourceString >>= sassify
 
     match (fromList ["about.markdown", "contact.markdown", "cocoa-coding-conventions.markdown"]) $ do
         route   $ setExtension "html"
@@ -111,3 +109,8 @@ removeIndexStr url = case splitFileName url of
                         | otherwise   -> url
     _                                 -> url
     where isLocal uri = not ("://" `isInfixOf` uri)
+--------------------------------------------------------------------------------
+-- |Run sass and compress the result
+sassify :: Item String -> Compiler (Item String)
+sassify item = withItemBody (unixFilter "sass" ["-s", "--scss", "--load-path", "css"]) item
+               >>= return . fmap compressCss

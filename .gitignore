@@ -7,7 +7,7 @@
 site
 _cache
 _site
-/css/.sass-cache/
+.sass-cache/
 
 # Backup files
 \#*#
