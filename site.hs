@@ -92,17 +92,17 @@ niceRoute = customRoute createIndexRoute
         p = toFilePath ident
 
 --------------------------------------------------------------------------------
--- |Turns 2012-02-01-post.html into 2012/02/01/post/index.html
+-- | Turns 2012-02-01-post.html into 2012/02/01/post/index.html
 niceDateRoute :: Routes
 niceDateRoute = composeRoutes dateRoute niceRoute
 
 --------------------------------------------------------------------------------
--- |Replace an url of the form foo/bar/index.html by foo/bar
+-- | Replace an url of the form foo/bar/index.html by foo/bar
 removeIndexHtml :: Item String -> Compiler (Item String)
 removeIndexHtml item = return $ fmap (withUrls removeIndexStr) item
 
 --------------------------------------------------------------------------------
--- |Removes the .html component of a URL if it is local
+-- | Removes the .html component of a URL if it is local
 removeIndexStr :: String -> String
 removeIndexStr url = case splitFileName url of
     (dir, "index.html") | isLocal dir -> dir
@@ -110,7 +110,7 @@ removeIndexStr url = case splitFileName url of
     _                                 -> url
     where isLocal uri = not ("://" `isInfixOf` uri)
 --------------------------------------------------------------------------------
--- |Run sass and compress the result
+-- | Run sass and compress the result
 sassify :: Item String -> Compiler (Item String)
 sassify item = withItemBody (unixFilter "sass" ["-s", "--scss", "--load-path", "css"]) item
                >>= return . fmap compressCss
