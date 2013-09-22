@@ -7,7 +7,7 @@ This used to be a thing until the iOS 6 and OS X 10.8 compatible
 [NSUUID Class](http://developer.apple.com/library/mac/#documentation/Foundation/Reference/NSUUID_Class/Reference/Reference.html)
 became available.
 
-<!-- more -->
+<!--more-->
 
 ## New
 

@@ -11,7 +11,7 @@ As part of the learning process, I took one of my correct solutions over to the
 nice folks at the #haskell channel over on freenode and asked if there was a
 better way to do it. I learned something surprising.
 
-<!-- more -->
+<!--more-->
 
 As part of the solution to the
 [Recycled Numbers](http://code.google.com/codejam/contest/1460488/dashboard#s=p2)

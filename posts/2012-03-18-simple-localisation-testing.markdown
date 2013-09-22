@@ -11,7 +11,7 @@ But, with Xcode4 schemes and a little argument passing this is a lot easier than
 can set up a scheme for each localisation which will let you run your iOS or Mac app under that
 localisation without having to change any settings.
 
-<!-- more -->
+<!--more-->
 
 Just to make it easier, you can have a look at an example Xcode Workspace that I've
 [put up on Github](https://github.com/Abizern/SimpleLocalisationTesting "Simple Localisation

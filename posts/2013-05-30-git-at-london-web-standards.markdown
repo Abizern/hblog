@@ -7,7 +7,7 @@ London Web Standards is focusing on Git for their meeting on
 [17th June](http://londonwebstandards.org/2013/05/lws-june-2013-gitdiet/). I'm
 going to be talking on the topic of "Git's not what you think it is".
 
-<!-- more -->
+<!--more-->
 
 The Abstract:
 

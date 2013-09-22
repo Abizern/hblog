@@ -12,7 +12,7 @@ problem, along with the mechanics of getting the problem inputs and submitting s
 [Data Driven Programming in Haskell](http://youtu.be/045422s6xik?hd=1) by
 [Jonas Tullus](http://entirelysubjective.com/programming/data-driven-programming-haskell-1/)
 
-<!-- more -->
+<!--more-->
 
 I moved at a slower pace, and talking and typing seem to have confused my brain
 so I think I lapsed into gibberish in a couple of places. (If you know me,
