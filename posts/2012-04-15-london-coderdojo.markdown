@@ -6,7 +6,7 @@ tags: programming
 I mentored at [CoderDojo London](http://zen.coderdojo.com/dojo/74) this
 weekend. These are just some of my thoughts about it.
 
-<!-- more -->
+<!--more-->
 
 {% blockquote Coder Dojo site  http://coderdojo.com/about-us/ %}
 CoderDojo is a movement orientated around running free not-for-profit coding clubs and regular sessions for young people.

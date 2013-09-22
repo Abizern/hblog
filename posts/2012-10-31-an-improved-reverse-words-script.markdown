@@ -11,7 +11,7 @@ Google Code Jam problem
 
 I've become more comfortable with Haskell since then, so here's an improved solution.
 
-<!-- more -->
+<!--more-->
 
 ``` haskell Improved reverse words with haskell https://gist.github.com/Abizern/3986006 View gist
 module Main where

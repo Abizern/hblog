@@ -9,7 +9,7 @@ You're working in Xcode, and you have a file opened on another monitor in
 another window. Unfortunately, you forget about it, and when you close your
 project and reopen it again, the toolbar is missing.
 
-<!-- more -->
+<!--more-->
 
 {% img top http://images.abizern.org/2013/01/Missing%20Xcode%20Toolbar.png 579 45  Missing Toolbar %}
 

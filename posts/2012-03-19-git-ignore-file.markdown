@@ -10,7 +10,7 @@ as well.
 
 I might as well have it on my own site:
 
-<!-- more -->
+<!--more-->
 
 ```
 # Mac OS X

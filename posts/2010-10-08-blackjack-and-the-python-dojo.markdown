@@ -13,7 +13,7 @@ last night and had a better time than I expected. I know a little
 enough to hurt myself). I was intrigued by this event where the idea was to
 learn together rather than just share knowledge.
 
-<!-- more -->
+<!--more-->
 
 The evening started off with beer and pizza, thanks to our hosts
 [Fry-IT](http://www.fry-it.com/), and then moved on to two short
