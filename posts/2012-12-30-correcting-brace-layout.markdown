@@ -9,7 +9,7 @@ statement.
 
 So now I can correct all the Xcode generated stubs that look like:
 
-``` objective-c
+``` objectivec
 - (void)someMethod
 {
     // some code here
@@ -18,7 +18,7 @@ So now I can correct all the Xcode generated stubs that look like:
 
 Into my preferred format:
 
-``` objective-c
+``` objectivec
 - (void)someMethod {
     // some code here
 }
