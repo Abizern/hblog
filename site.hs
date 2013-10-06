@@ -18,7 +18,7 @@ main = hakyll $ do
         compile $ getResourceString >>= sassify
 
     match (fromList ["about.markdown", "contact.markdown", "cocoa-coding-conventions.markdown"]) $ do
-        route   $ setExtension "html"
+        route niceRoute
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
@@ -55,7 +55,6 @@ main = hakyll $ do
                 >>= applyAsTemplate indexCtx
                 >>= loadAndApplyTemplate "templates/default.html" postCtx
                 >>= relativizeUrls
-                >>= removeIndexHtml
 
     match "templates/*" $ compile templateCompiler
 
