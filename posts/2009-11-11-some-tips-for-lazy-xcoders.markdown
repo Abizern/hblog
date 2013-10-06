@@ -1,6 +1,6 @@
 ---
-title: Some tips for lazy Xcoders
-tags: osx
+title: Some Tips for Lazy Xcoders
+tags: programming
 ---
 
 We all know what we should be doing when writing code. Each methodology you
