@@ -22,6 +22,7 @@ main = hakyll $ do
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
+            >>= removeIndexHtml
 
     match "posts/*" $ do
         route niceDateRoute
@@ -32,7 +33,7 @@ main = hakyll $ do
             >>= removeIndexHtml
 
     create ["archive.html"] $ do
-        route idRoute
+        route niceRoute
         compile $ do
             let archiveCtx =
                     field "posts" (\_ -> postList recentFirst) `mappend`
@@ -43,6 +44,7 @@ main = hakyll $ do
                 >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
+                >>= removeIndexHtml
 
 
     match "index.html" $ do
@@ -55,6 +57,7 @@ main = hakyll $ do
                 >>= applyAsTemplate indexCtx
                 >>= loadAndApplyTemplate "templates/default.html" postCtx
                 >>= relativizeUrls
+                >>= removeIndexHtml
 
     match "templates/*" $ compile templateCompiler
 
