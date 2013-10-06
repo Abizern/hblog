@@ -1,6 +1,6 @@
 ---
 title: NSCoder Night London - Report
-tags: nscoder night
+tags: nscodernight
 ---
 
 [![NSCoder Night](http://farm3.static.flickr.com/2671/3952499655_33ed3b7b29.jpg)](http://www.flickr.com/photos/15729248@N00/3952499655)
