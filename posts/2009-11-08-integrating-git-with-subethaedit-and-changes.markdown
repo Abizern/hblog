@@ -1,5 +1,5 @@
 ---
-title: Integrating git with SubEthaEdit and Changes.app
+title: Integrating Git with SubEthaEdit and Changes.app
 tags: osx, git
 ---
 
