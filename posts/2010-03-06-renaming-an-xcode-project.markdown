@@ -1,6 +1,6 @@
 ---
 title: Renaming an Xcode Project
-tags: osx
+tags: xcode
 ---
 
 You may have occasion to rename an Xcode project.
