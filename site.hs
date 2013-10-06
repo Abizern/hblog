@@ -5,7 +5,6 @@ import           Data.Monoid (mappend)
 import           Data.List (isInfixOf)
 import           System.FilePath.Posix  (takeBaseName,takeDirectory,(</>),splitFileName)
 
-
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyll $ do
@@ -46,7 +45,6 @@ main = hakyll $ do
                 >>= relativizeUrls
                 >>= removeIndexHtml
 
-
     match "index.html" $ do
         route idRoute
         compile $ do
@@ -61,13 +59,11 @@ main = hakyll $ do
 
     match "templates/*" $ compile templateCompiler
 
-
 --------------------------------------------------------------------------------
 postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
     defaultContext
-
 
 --------------------------------------------------------------------------------
 postList :: ([Item String] -> Compiler [Item String]) -> Compiler String
@@ -84,6 +80,7 @@ dateRoute = gsubRoute "posts/" (const "") `composeRoutes`
   where
     replaceChars c | c == '-' || c == '_' = '/'
                    | otherwise = c
+
 --------------------------------------------------------------------------------
 niceRoute :: Routes
 niceRoute = customRoute createIndexRoute
@@ -110,7 +107,9 @@ removeIndexStr url = case splitFileName url of
     (dir, "index.html") | isLocal dir -> dir
                         | otherwise   -> url
     _                                 -> url
-    where isLocal uri = not ("://" `isInfixOf` uri)
+    where
+      isLocal uri = not ("://" `isInfixOf` uri)
+      
 --------------------------------------------------------------------------------
 -- | Run sass and compress the result
 sassify :: Item String -> Compiler (Item String)
