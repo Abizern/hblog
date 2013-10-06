@@ -14,7 +14,7 @@ became available.
 This is how you can do it now:
 <figure>
 
-``` objc
+``` objectivec
 NSString *uuidString = [[NSUUID UUID] UUIDString];
 // Generates: 7E60066C-C7F3-438A-95B1-DDE8634E1072
 ```
@@ -30,7 +30,7 @@ it where people have created a category on NSString for this.
 
 <figure>
 
-``` objc
+``` objectivec
 - (NSString *)uuidString {
     // Returns a UUID
 
@@ -49,7 +49,7 @@ And to use it:
 
 <figure>
 
-``` objc
+``` objectivec
 NSString *uuidString = [self uuidString];
 // Generates D5CB0560-206F-4581-AA25-1D6A873F3526
 ```
@@ -68,7 +68,7 @@ _good enough_ unique string this is probably a better method to use:
 
 <figure>
 
-``` objc
+``` objectivec
 NSString *uuidStr = [[NSProcessInfo processInfo] globallyUniqueString];
 // generates 56341C6E-35A7-4C97-9C5E-7AC79673EAB2-539-000001F95B327819
 ```

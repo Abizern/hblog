@@ -19,7 +19,7 @@ problem required turning a number such as 1234 into a list of numbers with the
 digits rotated [4123, 3412, 2341]. User TSC2 in the channel gave me this simple
 way of doing it:
 
-``` bash
+``` haskell
 ghci> (\xs -> let n = length xs in (tail . take n . map (take n) . tails . cycle) xs) "abcde"
 ["bcdea","cdeab","deabc","eabcd"]
 ```
@@ -50,7 +50,7 @@ This is where things start to get interesting. `tails` creates a list out of
 successive tails of a list. If you were to do this on a finite list you'd get a
 list of smaller and smaller elements. For example:
 
-``` bash
+``` haskell
 ghci> tails "abcde"
 ["abcde","bcde","cde","de","e",""]
 ```
