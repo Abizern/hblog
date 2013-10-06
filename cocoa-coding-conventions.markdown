@@ -108,7 +108,7 @@ There are common macros that are used throughout my projects. This header file
 should be added to all projects and imported into the `Prefix.pch` file. The most
 up to date version is available on Github:
 
-``` objc Common Macros https://gist.github.com/Abizern/325926 View Gist
+``` objectivecCommon Macros https://gist.github.com/Abizern/325926 View Gist
 // Useful Macros.
 // The best place to import this is in your project's pch file.
 // See http://www.cimgf.com/2010/05/02/my-current-prefix-pch-file/ for details.
@@ -179,7 +179,7 @@ of properties.
 If using iVars treat them as private and add them to a class extension or the
 @implementation section if using a compiler that supports it.
 
-``` objective-c
+``` objectivec
 // Bad - declared in the public header
 
 @interface MyClass : NSObject {
@@ -216,7 +216,7 @@ Prefer nonatomic to atomic type declarations.
 
 Choose a different getters for `BOOL` types where appropriate.
 
-``` objective-c
+``` objectivec
 @property (strong, nonatomic) UIColor *colour;
 @property (copy, nonatomic) NSString *title;
 @property (weak, nonatomic) id <DelegateProtocol> delegate;
@@ -228,7 +228,7 @@ smaller surface area of change when working through code, especially during
 discovery. If a property needs to be publicly readonly but readwrite for the
 class, redeclare the property as readwrite within a class extension.
 
-``` objective-c
+``` objectivec
 // In the .h file
 @interface MyClass : NSObject
 
@@ -259,7 +259,7 @@ The cocoa frameworks follow an American spelling convention. That means that
 there are classes such as `NSColor` and `NSNotificationCenter`. That doesn't
 mean that this convention should be followed blindly. Use British spelling:
 
-``` objective-c
+``` objectivec
 // The usual
 UIColor *someColor = [UIColor whiteColor];
 NSNotificationCenter *notificationCenter = [NSNotificationCenter defaultCenter];
@@ -295,7 +295,7 @@ Left aligned, with a space after the scope. There should be a space between the
 method segments, and if a parameter is a pointer, then there should be a space
 before the asterisk
 
-``` objective-c
+``` objectivec
 // BAD
 -(void)doSomethingWithString:(NSString*)aString;
 
@@ -329,7 +329,7 @@ Use `YES` and `NO` not true, false, 1, -1 or anything like that.
 
 Don't compare `BOOL` returns against `BOOL`s:
 
-``` objective-c
+``` objectivec
 // GOOD
 if ([self aMethodReturningBOOL]) {
 
@@ -354,7 +354,7 @@ Use static declarations in preference to #defines.
 Use `extern` to declare a public constant that is defined within the class. Use
 a simple static otherwise
 
-``` objective-c
+``` objectivec
 // declared in header defined in implementation
 // .h
 extern NSString * const kMyConstant;
@@ -370,7 +370,7 @@ static NSString *someString;
 
 Use the new typed enumerations.
 
-``` objective-c
+``` objectivec
 typedef enum : unsigned char {
     Red,
     Green,
@@ -383,7 +383,7 @@ they are really needed in specific situations. The exception is for bitmask
 enumerations which should specify the initial value and the remaining values
 should use the shift-left operator (<<).
 
-``` objective-c
+``` objectivec
 typedef enum : NSUInteger {
     ABCOutputNone    = 0,
     ABCOutputSeconds = 1 << 0,
@@ -400,7 +400,7 @@ them.
 If you want to mark critical parts that need to be implemented, don't bother
 with using build scripts to find the TODOs - just use a `#warning` instead:
 
-``` objective-c
+``` objectivec
 #warning This method needs to be implemented.
 ```
 
@@ -500,7 +500,7 @@ A brace is always opened on the same line after a space (the exceptions is block
 definitions). The closing brace is on a separate line and indented to the same
 level as the line with the opening brace.
 
-``` objective-c
+``` objectivec
 - (BOOL)someMethod {
     return YES;
 }
@@ -526,7 +526,7 @@ the changed indentation level more obvious.
 
 #### <a id="ifelse"></a>if/else
 
-``` objective-c
+``` objectivec
 if (button.enabled) {
     // do something
 
@@ -546,7 +546,7 @@ only clearer to read but easier to make changes to.
 
 A handy structure, but should be used sparingly where it aids readability.
 
-``` objective-c
+``` objectivec
 // Acceptable
 NSString *boolString = nil;
 
@@ -628,7 +628,7 @@ When using conditionals, the left hand margin of the code should be the
 commonly executed.  For example, the common way of writing initialisers doesn't
 follow this:
 
-``` objective-c
+``` objectivec
 // BAD
 - (id)init {
     self = [super init];
