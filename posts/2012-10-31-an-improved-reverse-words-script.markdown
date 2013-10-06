@@ -1,6 +1,6 @@
 ---
-title: An improved Reverse Words Script
-tags: haskell, programming
+title: An Improved Reverse Words Script
+tags: haskell
 ---
 
 About 6 months ago I posted
@@ -9,11 +9,14 @@ Google Code Jam problem
 [Reverse Words](http://code.google.com/codejam/contest/351101/dashboard#s=p1
 "Original problem statement")
 
-I've become more comfortable with Haskell since then, so here's an improved solution.
+I've become more comfortable with Haskell since then, so here's an improved
+solution.
 
 <!--more-->
 
-``` haskell Improved reverse words with haskell https://gist.github.com/Abizern/3986006 View gist
+<figure>
+
+``` haskell
 module Main where
 
 {-
@@ -37,6 +40,9 @@ main = do
     putStrLn $ "Case #" ++ show i ++ ": " ++ solution
 
 ```
+
+<figcaption>Improved Reverse Words With Haskell [view as gist]( https://gist.github.com/Abizern/3986006)</figcaption>
+</figure>
 
 I'm not one who believes that shorter, terser code is necessarily better, but
 that isn't what makes this version an improvement. Nor even the use of Monads;

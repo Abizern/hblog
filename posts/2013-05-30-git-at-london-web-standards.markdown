@@ -11,8 +11,7 @@ going to be talking on the topic of "Git's not what you think it is".
 
 The Abstract:
 
-{% blockquote %}
-You think you know Git? Really?
+"You think you know Git? Really?
 
 Are you using Git the same tired old way, checking in your changes and pulling
 from your colleagues? Do you get the sneaking feeling that others are having
@@ -22,9 +21,8 @@ Are you a refusenik, not tempted to use version control because its not for you?
 
 I’m going to challenge some common ideas about Git; I hope to get current users
 to be more expansive in their use of it, and maybe to bring some new users into
-the fold.
+the fold."
 
-{% endblockquote %}
 
 I've been talking about [Git](https://alpha.app.net/abizern) since 2009, which
 is when I became comfortable using it. I've heard some reasons for people not

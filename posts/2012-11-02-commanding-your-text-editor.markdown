@@ -1,6 +1,6 @@
 ---
 title: Commanding Your Text Editor
-tags: programming, emacs
+tags: emacs, editing
 ---
 
 There's a recent post up on the PeepCode Blog about

@@ -11,13 +11,13 @@ project and reopen it again, the toolbar is missing.
 
 <!--more-->
 
-{% img top http://images.abizern.org/2013/01/Missing%20Xcode%20Toolbar.png 579 45  Missing Toolbar %}
+![Missing Toolbar](http://images.abizern.org/2013/01/Missing%20Xcode%20Toolbar.png)
 
-It can be frustrating, because Xcode remembers this, and every time you open the
+nIt can be frustrating, because Xcode remembers this, and every time you open the
 project it will open without a toolbar. You can put it back by right-clicking in
 what is left of the toolbar and choosing one of the options.
 
-{% img top http://images.abizern.org/2013/01/Xcode%20Toolbar%20Menu.png 534 112  Toolbar Menu %}
+![Toolbar Menu](http://images.abizern.org/2013/01/Xcode%20Toolbar%20Menu.png)
 
 But the gotcha that has bit me twice now, and prompted me to write this to
 remind myself of it, is that you need to choose the "Show Toolbar" menu item

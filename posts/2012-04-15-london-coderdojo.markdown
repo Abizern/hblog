@@ -8,9 +8,8 @@ weekend. These are just some of my thoughts about it.
 
 <!--more-->
 
-{% blockquote Coder Dojo site  http://coderdojo.com/about-us/ %}
-CoderDojo is a movement orientated around running free not-for-profit coding clubs and regular sessions for young people.
-{% endblockquote %}
+CoderDojo is a movement orientated around running free not-for-profit coding
+clubs and regular sessions for young people.
 
 A regular London chapter has formed, supported by and at the offices of
 [Forward Technology](http://forwardtechnology.co.uk).  It takes place in their
@@ -56,7 +55,6 @@ I showed one girl how to draw an arc on the canvas, went away and when I came
 back she proudly showed me that she'd put two filled circles above the
 arc to make a smiley face. Without being told to or shown how.
 
-{% pullquote %}
 One of the extra tasks was to modify a function to draw on the canvas when the
 mouse was pressed. I saw one boy go to Stack Overflow, find a similar solution,
 and then, rather than just copy-pasting the code, he turned to me and asked me
@@ -65,7 +63,6 @@ I tweeted about it later:
 {" Helping kids program is hard. You can't tell them to RTFM "}.
 Since I would have to refer to the said FM to answer him properly,
 I deferred the question to someone who knew what he was talking about.
-{% endpullquote %}
 
 It was an energising experience. The program is in the early days yet, there
 isn't a program of tasks to cover. But the enthusiasm of the children and the

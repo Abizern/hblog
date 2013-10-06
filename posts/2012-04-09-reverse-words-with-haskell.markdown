@@ -18,11 +18,11 @@ I moved at a slower pace, and talking and typing seem to have confused my brain
 so I think I lapsed into gibberish in a couple of places. (If you know me,
 you'll know that's nothing new).
 
-{% youtube _tgv3HVgOMc  %}
+<iframe width="560" height="315" src="//www.youtube.com/embed/_tgv3HVgOMc" frameborder="0" allowfullscreen></iframe>
 
 Here's the cleaned up source file.
 
-``` haskell Reverse words with haskell
+``` haskell 
 module Main where
 
 {-
@@ -32,7 +32,7 @@ module Main where
  - Usage either compile or use runhaskell / runghc
  - Pass the input file as the sole command line argument
  - Redirect output if you want the results to go in a file
- -}
+ -}n
 
 import IO
 import System.Environment
