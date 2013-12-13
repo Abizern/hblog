@@ -1,77 +1,77 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
-import           Hakyll
-import           Data.Monoid (mappend)
-import           Data.List (isInfixOf)
-import           System.FilePath.Posix  (takeBaseName,takeDirectory,(</>),splitFileName)
+import Hakyll
+import Data.Monoid (mappend)
+import Data.List (isInfixOf)
+import System.FilePath.Posix  (takeBaseName,takeDirectory,(</>),splitFileName)
 
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyll $ do
-    match "images/*" $ do
-        route   idRoute
-        compile copyFileCompiler
+  match "images/*" $ do
+    route   idRoute
+    compile copyFileCompiler
 
-    match "css/main.scss" $ do
-        route $ setExtension "css"
-        compile $ getResourceString >>= sassify
+  match "css/main.scss" $ do
+    route $ setExtension "css"
+    compile $ getResourceString >>= sassify
 
-    match (fromList ["about.markdown", "contact.markdown", "cocoa-coding-conventions.markdown"]) $ do
-        route niceRoute
-        compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
-            >>= relativizeUrls
-            >>= removeIndexHtml
+  match (fromList ["about.markdown", "contact.markdown", "cocoa-coding-conventions.markdown"]) $ do
+    route niceRoute
+    compile $ pandocCompiler
+      >>= loadAndApplyTemplate "templates/default.html" defaultContext
+      >>= relativizeUrls
+      >>= removeIndexHtml
 
-    match "posts/*" $ do
-        route niceDateRoute
-        compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/post.html"    postCtx
-            >>= loadAndApplyTemplate "templates/default.html" postCtx
-            >>= relativizeUrls
-            >>= removeIndexHtml
+  match "posts/*" $ do
+    route niceDateRoute
+    compile $ pandocCompiler
+      >>= loadAndApplyTemplate "templates/post.html"    postCtx
+      >>= loadAndApplyTemplate "templates/default.html" postCtx
+      >>= relativizeUrls
+      >>= removeIndexHtml
 
-    create ["archive.html"] $ do
-        route niceRoute
-        compile $ do
-            let archiveCtx =
-                    field "posts" (\_ -> postList recentFirst) `mappend`
-                    constField "title" "Archives"              `mappend`
-                    defaultContext
+  create ["archive.html"] $ do
+    route niceRoute
+    compile $ do
+      let archiveCtx =
+            field "posts" (\_ -> postList recentFirst) `mappend`
+            constField "title" "Archives"              `mappend`
+            defaultContext
 
-            makeItem ""
-                >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
-                >>= loadAndApplyTemplate "templates/default.html" archiveCtx
-                >>= relativizeUrls
-                >>= removeIndexHtml
+      makeItem ""
+        >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
+        >>= loadAndApplyTemplate "templates/default.html" archiveCtx
+        >>= relativizeUrls
+        >>= removeIndexHtml
 
-    match "index.html" $ do
-        route idRoute
-        compile $ do
-            let indexCtx = field "posts" $ \_ ->
-                                postList $ fmap (take 3) . recentFirst
+  match "index.html" $ do
+    route idRoute
+    compile $ do
+      let indexCtx = field "posts" $ \_ ->
+            postList $ fmap (take 3) . recentFirst
 
-            getResourceBody
-                >>= applyAsTemplate indexCtx
-                >>= loadAndApplyTemplate "templates/default.html" postCtx
-                >>= relativizeUrls
-                >>= removeIndexHtml
+      getResourceBody
+        >>= applyAsTemplate indexCtx
+        >>= loadAndApplyTemplate "templates/default.html" postCtx
+        >>= relativizeUrls
+        >>= removeIndexHtml
 
-    match "templates/*" $ compile templateCompiler
+  match "templates/*" $ compile templateCompiler
 
 --------------------------------------------------------------------------------
 postCtx :: Context String
 postCtx =
-    dateField "date" "%B %e, %Y" `mappend`
-    defaultContext
+  dateField "date" "%B %e, %Y" `mappend`
+  defaultContext
 
 --------------------------------------------------------------------------------
 postList :: ([Item String] -> Compiler [Item String]) -> Compiler String
 postList sortFilter = do
-    posts   <- sortFilter =<< loadAll "posts/*"
-    itemTpl <- loadBody "templates/post-item.html"
-    list    <- applyTemplateList itemTpl postCtx posts
-    return list
+  posts   <- sortFilter =<< loadAll "posts/*"
+  itemTpl <- loadBody "templates/post-item.html"
+  list    <- applyTemplateList itemTpl postCtx posts
+  return list
 
 --------------------------------------------------------------------------------
 dateRoute :: Routes
@@ -104,11 +104,11 @@ removeIndexHtml item = return $ fmap (withUrls removeIndexStr) item
 -- | Removes the .html component of a URL if it is local
 removeIndexStr :: String -> String
 removeIndexStr url = case splitFileName url of
-    (dir, "index.html") | isLocal dir -> dir
-                        | otherwise   -> url
-    _                                 -> url
-    where
-      isLocal uri = not ("://" `isInfixOf` uri)
+  (dir, "index.html") | isLocal dir -> dir
+                      | otherwise   -> url
+  _                                 -> url
+  where
+    isLocal uri = not ("://" `isInfixOf` uri)
       
 --------------------------------------------------------------------------------
 -- | Run sass and compress the result
