@@ -8,6 +8,10 @@ import System.FilePath.Posix  (takeBaseName,takeDirectory,(</>),splitFileName)
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyll $ do
+  match "CNAME" $ do
+    route idRoute
+    compile copyFileCompiler
+  
   match "images/*" $ do
     route   idRoute
     compile copyFileCompiler
