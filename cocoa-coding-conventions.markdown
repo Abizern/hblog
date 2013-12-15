@@ -104,11 +104,11 @@ the project settings that reference these files to make them work. Similar files
 are created for unit testing or other targets, but these need not be renamed;
 the simplified names are only be used for the main target of the project.
 
-There are common macros that are used throughout my projects. This header file
+These are common macros that are used throughout my projects. This header file
 should be added to all projects and imported into the `Prefix.pch` file. The most
-up to date version is available on Github:
+up to date version is available as a [gist on Github](https://gist.github.com/Abizern/325926):
 
-``` objectivecCommon Macros https://gist.github.com/Abizern/325926 View Gist
+``` objectivec
 // Useful Macros.
 // The best place to import this is in your project's pch file.
 // See http://www.cimgf.com/2010/05/02/my-current-prefix-pch-file/ for details.
