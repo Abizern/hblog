@@ -4,6 +4,7 @@ import Hakyll
 import Data.Monoid (mappend)
 import Data.List (isInfixOf)
 import System.FilePath.Posix  (takeBaseName,takeDirectory,(</>),splitFileName)
+import Text.Pandoc
 
 --------------------------------------------------------------------------------
 main :: IO ()
@@ -20,9 +21,16 @@ main = hakyll $ do
     route $ setExtension "css"
     compile $ getResourceString >>= sassify
 
-  match (fromList ["about.markdown", "cocoa-coding-conventions.markdown"]) $ do
+  match (fromList pages) $ do
     route niceRoute
     compile $ pandocCompiler
+      >>= loadAndApplyTemplate "templates/default.html" defaultContext
+      >>= relativizeUrls
+      >>= removeIndexHtml
+
+  match (fromList pagesWithToc) $ do
+    route niceRoute
+    compile $ pandocCompilerWith defaultHakyllReaderOptions pandocTocWriter
       >>= loadAndApplyTemplate "templates/default.html" defaultContext
       >>= relativizeUrls
       >>= removeIndexHtml
@@ -63,6 +71,13 @@ main = hakyll $ do
 
   match "templates/*" $ compile templateCompiler
 
+  where pages = ["about.markdown"]
+        pagesWithToc = ["cocoa-coding-conventions.markdown"]
+        pandocTocWriter = defaultHakyllWriterOptions { writerTableOfContents = True
+                                                     , writerTemplate = "$toc$\n$body$"
+                                                     , writerStandalone = True }
+      
+
 --------------------------------------------------------------------------------
 postCtx :: Context String
 postCtx =
@@ -93,7 +108,7 @@ niceRoute = customRoute createIndexRoute
       takeDirectory p </> takeBaseName p </> "index.html"
       where
         p = toFilePath ident
-
+        
 --------------------------------------------------------------------------------
 -- |Turns 2012-02-01-post.html into 2012/02/01/post/index.html
 niceDateRoute :: Routes
