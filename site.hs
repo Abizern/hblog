@@ -71,7 +71,9 @@ main = hakyll $ do
 
   match "templates/*" $ compile templateCompiler
 
-  where pages = ["about.markdown"]
+  where pages = ["about.markdown"
+                , "copyright-statement.markdown"
+                ]
         pagesWithToc = ["cocoa-coding-conventions.markdown"]
         pandocTocWriter = defaultHakyllWriterOptions { writerTableOfContents = True
                                                      , writerTemplate = "$toc$\n$body$"
