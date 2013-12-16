@@ -2,3 +2,17 @@
 @import "solarized";
 @import "typography";
 @import "syntax_highlighting";
+
+$base-font-size: 18px;
+$base-line-size: 1.5;
+
+body {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: $base-font-size;
+  line-height: $base-line-size;
+  font-family: $sans;
+  background-color: $base3;
+  color: $base01;
+}
