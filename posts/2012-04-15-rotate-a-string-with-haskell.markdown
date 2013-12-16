@@ -2,7 +2,6 @@
 title: Rotate A String with Haskell
 description: There's always room to do better
 tags: haskell
-
 ---
 
 I qualified for [Google Code Jam](http://code.google.com/codejam) this year

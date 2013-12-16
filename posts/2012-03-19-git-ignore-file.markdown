@@ -2,7 +2,6 @@
 title: Git Ignore file
 description: My recommended .gitignore
 tags: git
-
 ---
 
 A while ago I answered a couple of questions on Stack Overflow using my

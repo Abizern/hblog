@@ -2,7 +2,6 @@
 title: Commanding Your Text Editor
 description: A link to a few tips of using your editor effectively
 tags: emacs, editing
-
 ---
 
 There's a recent post up on the PeepCode Blog about

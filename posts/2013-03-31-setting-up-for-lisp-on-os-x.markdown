@@ -2,7 +2,6 @@
 title: Setting up for Lisp on OS X
 description: This is how I roll, you might choose a different path.
 tags: osx, emacs, lisp
-
 ---
 
 This is how I roll, you might choose a different path.

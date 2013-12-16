@@ -2,7 +2,6 @@
 title: Simple Localisation Testing
 description: You don't need to change the device settings
 tags: osx, ios
-
 ---
 
 Sometimes you want to test your localisations but you don't want to go through the hassle of

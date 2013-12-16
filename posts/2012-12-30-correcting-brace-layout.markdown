@@ -2,7 +2,6 @@
 title: Correcting Brace Layout
 description: I wrote a Ruby Gem
 tags: ruby, objectivec, programming
-
 ---
 
 I wrote a [small rubygem](http://abizern.org/fixbraces/) called _fixbraces_ to

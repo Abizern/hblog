@@ -2,7 +2,6 @@
 title: Getting the address of a shortened URL
 description: A little tip
 tags: programming
-
 ---
 
 Many times you will see a shortened url but you aren't sure what it points

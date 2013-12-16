@@ -2,7 +2,6 @@
 title: London CoderDojo
 description: My thoughts on mentoring
 tags: programming
-
 ---
 
 I mentored at [CoderDojo London](http://zen.coderdojo.com/dojo/74) this

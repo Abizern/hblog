@@ -2,7 +2,6 @@
 title: Book Stack June 2012
 description: My reading backlog
 tags: personal, books
-
 ---
 
 I seem to have accrued a stack of fiction that I haven't got around to

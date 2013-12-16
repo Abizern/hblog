@@ -2,7 +2,6 @@
 title: On Live Coding
 description: Videos of programmers workingg
 tags: haskell, ruby
-
 ---
 
 I read somewhere that part of the popularity of

@@ -2,7 +2,6 @@
 title: A Simple Answer Is Not Always Best
 description: Sometimes it's better to answer the actual, unspoken question.
 tags: programming
-
 ---
 
 On New Year's eve, Dámasa asked me to calculate some fraction of a fraction and

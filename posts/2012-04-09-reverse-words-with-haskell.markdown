@@ -2,7 +2,6 @@
 title: Reverse Words With Haskell
 description: A practice problem from Google Code Jam
 tags: haskell
-
 ---
 
 As part of my preparation for [Google Code Jam](http://code.google.com/codejam)

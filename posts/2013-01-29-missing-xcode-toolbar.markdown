@@ -2,7 +2,6 @@
 title: Missing Xcode Toolbar
 description: How to restore it
 tags: ios, osx, xcode
-
 ---
 
 I'm sure you've been there.

@@ -2,7 +2,6 @@
 title: Git at London Web Standards
 description: Announcing my talk
 tags: git, presentations
-
 ---
 
 London Web Standards is focusing on Git for their meeting on

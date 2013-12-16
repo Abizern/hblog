@@ -2,7 +2,6 @@
 title: Just Enough GPG for git
 description: If all you want to do is to sign and/or verify commits
 tags: osx, git
-
 ---
 
 It came about that I wanted to do some work with git and signed tags. It's been

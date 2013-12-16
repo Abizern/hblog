@@ -2,7 +2,6 @@
 title: Coding Conventions
 description: I've published my coding conventions for Objective-C / Cocoa
 tags: osx, ios
-
 ---
 
 I've just published my

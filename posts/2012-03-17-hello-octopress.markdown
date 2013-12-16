@@ -2,7 +2,6 @@
 title: Hello Octopress
 description: Obligatory post announcing the move from Wordpress to Octopress
 tags: meta
-
 ---
 
 This is the obligatory post announcing that I've moved this site off Wordpress

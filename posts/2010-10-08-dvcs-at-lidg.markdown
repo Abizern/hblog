@@ -2,7 +2,6 @@
 title: DVCS at LiDG
 description: I gave a short talk to the London iOS Developer Group, here at the slides.
 tags: git
-
 ---
 
 I gave a short presentation to the London iPhone Developer Group at the Apple
