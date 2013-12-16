@@ -20,7 +20,7 @@ main = hakyll $ do
     route $ setExtension "css"
     compile $ getResourceString >>= sassify
 
-  match (fromList ["about.markdown", "contact.markdown", "cocoa-coding-conventions.markdown"]) $ do
+  match (fromList ["about.markdown", "cocoa-coding-conventions.markdown"]) $ do
     route niceRoute
     compile $ pandocCompiler
       >>= loadAndApplyTemplate "templates/default.html" defaultContext
