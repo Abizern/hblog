@@ -1,6 +1,8 @@
 ---
 title: Staying Flash-free on a MacBook Air
+description: You don't need to install it. Really.
 tags: technology
+
 ---
 
 You may have seen John Gruber's posts on

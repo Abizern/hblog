@@ -1,6 +1,9 @@
 ---
 title: Blackjack and the Python Dojo
+description: A coding dojo is a safe place to deliberately practice and develop
+your coding skills
 tags: python
+
 ---
 
 "A coding dojo is a safe place to deliberately practice and develop your coding
@@ -12,8 +15,6 @@ last night and had a better time than I expected. I know a little
 [Python](http://en.wikipedia.org/wiki/Python_(programming_language)) (just
 enough to hurt myself). I was intrigued by this event where the idea was to
 learn together rather than just share knowledge.
-
-<!--more-->
 
 The evening started off with beer and pizza, thanks to our hosts
 [Fry-IT](http://www.fry-it.com/), and then moved on to two short

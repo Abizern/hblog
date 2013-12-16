@@ -1,6 +1,8 @@
 ---
 title: Git Ignore file
+description: My recommended .gitignore
 tags: git
+
 ---
 
 A while ago I answered a couple of questions on Stack Overflow using my
@@ -9,8 +11,6 @@ there are projects on GitHub that use it, and even the odd blogs has put it up
 as well.
 
 I might as well have it on my own site:
-
-<!--more-->
 
 ```
 # Mac OS X

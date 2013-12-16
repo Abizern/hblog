@@ -1,6 +1,8 @@
 ---
 title: Integrating Git with SubEthaEdit and Changes.app
+description: Adding an external diff app to SubEthaEdit
 tags: osx, git
+
 ---
 
 A while ago, I read a

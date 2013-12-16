@@ -1,13 +1,14 @@
 ---
 title: UUID Strings with Cocoa
+description: This used to be a thing until we got the NSUUID class with iOS 6
+and OS X 10.8
 tags: osx, ios
+
 ---
 
 This used to be a thing until the iOS 6 and OS X 10.8 compatible
 [NSUUID Class](http://developer.apple.com/library/mac/#documentation/Foundation/Reference/NSUUID_Class/Reference/Reference.html)
 became available.
-
-<!--more-->
 
 ## New
 

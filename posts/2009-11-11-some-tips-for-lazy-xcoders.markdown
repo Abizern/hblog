@@ -1,6 +1,7 @@
 ---
 title: Some Tips for Lazy Xcoders
-tags: programming
+tags: programming, xcode
+
 ---
 
 We all know what we should be doing when writing code. Each methodology you

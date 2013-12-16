@@ -1,6 +1,8 @@
 ---
 title: NSCoder Night London
+description: The first NSCoderNight in London
 tags: nscodernight
+
 ---
 
 It's surprising that there isn't an [NSCoder Night](http://nscodernight.com)

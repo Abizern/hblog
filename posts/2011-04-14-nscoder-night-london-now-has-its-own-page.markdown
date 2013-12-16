@@ -1,6 +1,8 @@
 ---
 title: NSCoder Night London Now Has It's Own Page
-tags: nscoder night
+description: A new website
+tags: nscodernight
+
 ---
 
 It's been over a year that I've been running the NSCoder Night meetings in

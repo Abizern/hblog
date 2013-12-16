@@ -1,6 +1,8 @@
 ---
 title: An Improved Reverse Words Script
+description: There's always room to do better
 tags: haskell
+
 ---
 
 About 6 months ago I posted
@@ -11,8 +13,6 @@ Google Code Jam problem
 
 I've become more comfortable with Haskell since then, so here's an improved
 solution.
-
-<!--more-->
 
 <figure>
 

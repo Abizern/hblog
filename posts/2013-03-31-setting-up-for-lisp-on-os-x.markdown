@@ -1,11 +1,11 @@
 ---
 title: Setting up for Lisp on OS X
+description: This is how I roll, you might choose a different path.
 tags: osx, emacs, lisp
+
 ---
 
 This is how I roll, you might choose a different path.
-
-<!--more-->
 
 1. Install Emacs. Get a nice, modern pre-built binary from
    [Emacs For Mac OS X](http://emacsformacosx.com/). It even supports fullscreen

@@ -1,12 +1,12 @@
 ---
 title: London CoderDojo
+description: My thoughts on mentoring
 tags: programming
+
 ---
 
 I mentored at [CoderDojo London](http://zen.coderdojo.com/dojo/74) this
 weekend. These are just some of my thoughts about it.
-
-<!--more-->
 
 CoderDojo is a movement orientated around running free not-for-profit coding
 clubs and regular sessions for young people.

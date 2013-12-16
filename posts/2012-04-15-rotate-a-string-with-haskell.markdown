@@ -1,6 +1,8 @@
 ---
 title: Rotate A String with Haskell
+description: There's always room to do better
 tags: haskell
+
 ---
 
 I qualified for [Google Code Jam](http://code.google.com/codejam) this year
@@ -10,8 +12,6 @@ but I'm using it as an excuse to learn some Haskell and to write code faster.
 As part of the learning process, I took one of my correct solutions over to the
 nice folks at the #haskell channel over on freenode and asked if there was a
 better way to do it. I learned something surprising.
-
-<!--more-->
 
 As part of the solution to the
 [Recycled Numbers](http://code.google.com/codejam/contest/1460488/dashboard#s=p2)

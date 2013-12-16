@@ -1,6 +1,8 @@
 ---
 title: A Year of Git
+description: A Tumblr of daily tips
 tags: git
+
 ---
 
 I've been inspired by Pieter Omvlee of

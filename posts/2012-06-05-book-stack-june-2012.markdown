@@ -1,13 +1,13 @@
 ---
 title: Book Stack June 2012
+description: My reading backlog
 tags: personal, books
+
 ---
 
 I seem to have accrued a stack of fiction that I haven't got around to
 reading. This is just a stick in the ground so I remember to dig them up and
 read them at some time:
-
-<!--more-->
 
 - **Anathem** by Neal Stephenson
 - **Reamde** by Neal Stephenson

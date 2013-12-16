@@ -1,6 +1,8 @@
 ---
 title: On Live Coding
+description: Videos of programmers workingg
 tags: haskell, ruby
+
 ---
 
 I read somewhere that part of the popularity of
@@ -9,7 +11,6 @@ entertaining to watch smart people solve difficult problems. I think that's part
 of the reason why I find watching live coding videos so entertaining - It's more
 fun to watch someone solve a problem than doing it yourself.
 
-<!--more-->
 There are plenty of screencasts you can find - [YouTube](http://youtubecom) is
 an obvious one, but don't forget [Vimeo](http://vimeo.com).
 

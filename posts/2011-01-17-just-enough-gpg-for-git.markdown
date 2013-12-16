@@ -1,6 +1,8 @@
 ---
 title: Just Enough GPG for git
+description: If all you want to do is to sign and/or verify commits
 tags: osx, git
+
 ---
 
 It came about that I wanted to do some work with git and signed tags. It's been
@@ -11,8 +13,6 @@ It turns out that it is quite simple to set up a minimal
 [GPG](http://en.wikipedia.org/wiki/Pretty_Good_Privacy) environment – one that
 lets you work on the command line without having to set it up for Mail.app. This
 is about all I need it for.
-
-<!-- more  -->
 
 The [GPGTools project](http://www.gpgtools.org/index.html) has recently
 resurrected the [MacGPG project](http://macgpg.sourceforge.net/) to provide

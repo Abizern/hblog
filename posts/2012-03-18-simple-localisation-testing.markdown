@@ -1,6 +1,8 @@
 ---
 title: Simple Localisation Testing
+description: You don't need to change the device settings
 tags: osx, ios
+
 ---
 
 Sometimes you want to test your localisations but you don't want to go through the hassle of
@@ -10,8 +12,6 @@ of setting some language that you don't understand.
 But, with Xcode4 schemes and a little argument passing this is a lot easier than it used to be. You
 can set up a scheme for each localisation which will let you run your iOS or Mac app under that
 localisation without having to change any settings.
-
-<!--more-->
 
 Just to make it easier, you can have a look at an example Xcode Workspace that I've
 [put up on Github](https://github.com/Abizern/SimpleLocalisationTesting "Simple Localisation

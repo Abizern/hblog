@@ -1,6 +1,8 @@
 ---
 title: Missing Xcode Toolbar
+description: How to restore it
 tags: ios, osx, xcode
+
 ---
 
 I'm sure you've been there.
@@ -8,8 +10,6 @@ I'm sure you've been there.
 You're working in Xcode, and you have a file opened on another monitor in
 another window. Unfortunately, you forget about it, and when you close your
 project and reopen it again, the toolbar is missing.
-
-<!--more-->
 
 ![Missing Toolbar](http://images.abizern.org/2013/01/Missing%20Xcode%20Toolbar.png)
 

@@ -1,14 +1,14 @@
 ---
 title: Commanding Your Text Editor
+description: A link to a few tips of using your editor effectively
 tags: emacs, editing
+
 ---
 
 There's a recent post up on the PeepCode Blog about
 [Commanding Your Text Editor](https://peepcode.com/blog/2012/commanding-your-text-editor)
 which has some handy tips for Emacs, Vim, Textmate, Sublime Text and the OS
 X. It's a short read, and worth the time.
-
-<!--more-->
 
 More and more of our time is spent at a keyboard typing, whether you're a
 programmer or not. Those of you who know me will have heard me talking about the
