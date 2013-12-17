@@ -2,8 +2,7 @@
 
 pre,
 code {
-  background-color: $base03;
-  color: $base1;
+  background-color: $base2;
 }
 
 .no_layout  {
@@ -51,7 +50,7 @@ td.sourceCode {
   // StringTok
   .st { color: $cyan; }
   // CommentTok
-  .co { color: $base01; }
+  .co { color: $base0; }
   // OtherTok
   .ot { color: $yellow; }
   // AlertTok
