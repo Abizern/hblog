@@ -1,11 +1,45 @@
 @import "solarized";
 
-pre {
+pre,
+code {
   background-color: $base03;
   color: $base1;
 }
 
+.no_layout  {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  border: none;
+}
+
+table.sourceCode  {
+  @extend .no_layout;
+  width: 100%;
+  line-height: 100%;
+  background-color: $base03;
+  color: $base1;
+}
+
+tr.sourceCode {
+  @extend .no_layout
+}
+
+td.lineNumbers {
+  @extend .no_layout;
+  text-align: right;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+td.sourceCode {
+  @extend .no_layout;
+  padding-left: 5px;
+}
+
 .sourceCode {
+
+  line-height: 1.1;
   // KeyWordTok
   .kw { color: $blue; }
   // DataTypeTok
@@ -29,21 +63,3 @@ pre {
   // ErrorTok
   t.er { color: $red; font-weight: bold; }
 }
-
-/* table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode { */
-/*   margin: 0; padding: 0; vertical-align: baseline; border: none; } */
-/* table.sourceCode { width: 100%; line-height: 100%; background-color: #303030; color: #cccccc; } */
-/* td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; } */
-/* td.sourceCode { padding-left: 5px; } */
-/* pre, code { color: #cccccc; background-color: #303030; } */
-/* code > span.kw { color: #f0dfaf; } */
-/* code > span.dt { color: #dfdfbf; } */
-/* code > span.dv { color: #dcdccc; } */
-/* code > span.bn { color: #dca3a3; } */
-/* code > span.fl { color: #c0bed1; } */
-/* code > span.ch { color: #dca3a3; } */
-/* code > span.st { color: #cc9393; } */
-/* code > span.co { color: #7f9f7f; } */
-/* code > span.ot { color: #efef8f; } */
-/* code > span.al { color: #ffcfaf; } */
-/* code > span.fu { color: #efef8f; } */

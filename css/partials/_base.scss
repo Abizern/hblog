@@ -6,6 +6,8 @@
 $base-font-size: 18px;
 $base-line-size: 1.5;
 $max-width: 980px;
+$navigation-right-padding: 20px;
+$body-padding: 40px;
 
 body {
   font-style: normal;
@@ -19,5 +21,24 @@ body {
   max-width: $max-width;
   margin-left: auto;
   margin-right: auto;
+  padding-left: $body-padding;
+  padding-right: $body-padding;
   position: relative;
+}
+
+pre,
+code {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 100%;
+  font-family: $mono;
+}
+
+#page_navigation {
+  li {
+    display: inline;
+    list-style-type: none;
+    padding-right: $navigation-right-padding;
+  }
 }
