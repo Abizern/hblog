@@ -5,6 +5,7 @@
 
 $base-font-size: 18px;
 $base-line-size: 1.5;
+$max-width: 980px;
 
 body {
   font-style: normal;
@@ -15,4 +16,8 @@ body {
   font-family: $sans;
   background-color: $base3;
   color: $base01;
+  max-width: $max-width;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
 }
