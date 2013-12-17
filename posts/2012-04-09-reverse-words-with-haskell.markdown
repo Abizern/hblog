@@ -21,7 +21,7 @@ you'll know that's nothing new).
 
 Here's the cleaned up source file.
 
-``` haskell 
+``` haskell
 module Main where
 
 {-
@@ -31,7 +31,7 @@ module Main where
  - Usage either compile or use runhaskell / runghc
  - Pass the input file as the sole command line argument
  - Redirect output if you want the results to go in a file
- -}n
+ -}
 
 import IO
 import System.Environment
