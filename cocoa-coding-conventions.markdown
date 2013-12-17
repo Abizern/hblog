@@ -520,7 +520,7 @@ brackets should clear up the error.
 
 The `default` case should **always** be the last case and should **always** be included.
 
-```objective-c
+```objectivec
 switch (something.state) {
     case 0: {
         // braced block where required by the compiler
@@ -545,7 +545,7 @@ switch (something.state) {
 
 #### For
 
-```objective-c
+```objectivec
 for (NSInteger idx = 0; idx < 10; idx++) {
     // Do something
 }
@@ -562,7 +562,7 @@ faster. Also consider using block enumeration where applicable.
 
 #### While
 
-```objective-c
+```objectivec
 while (something < somethingElse) {
     // Do something
 }
