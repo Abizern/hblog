@@ -135,4 +135,4 @@ removeIndexStr url = case splitFileName url of
 -- |Run sass and compress the result
 sassify :: Item String -> Compiler (Item String)
 sassify item = withItemBody (unixFilter "sass" ["-s", "--scss", "--load-path", "css"]) item
-               >>= return . fmap compressCss
+--               >>= return . fmap compressCss
