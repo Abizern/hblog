@@ -5,7 +5,7 @@ code {
   background-color: $base2;
 }
 
-.no_layout  {
+%no_layout  {
   margin: 0;
   padding: 0;
   vertical-align: baseline;
@@ -13,52 +13,74 @@ code {
 }
 
 table.sourceCode  {
-  @extend .no_layout;
+  @extend %no_layout;
   width: 100%;
-  line-height: 100%;
-  background-color: $base03;
-  color: $base1;
+  background-color: $base2;
 }
 
 tr.sourceCode {
-  @extend .no_layout
+  @extend %no_layout;
 }
 
 td.lineNumbers {
-  @extend .no_layout;
+  @extend %no_layout;
   text-align: right;
   padding-right: 4px;
   padding-left: 4px;
 }
 
 td.sourceCode {
-  @extend .no_layout;
+  @extend %no_layout;
   padding-left: 5px;
 }
 
-.sourceCode {
-
-  line-height: 1.1;
-  // KeyWordTok
-  .kw { color: $blue; }
+pre.sourceCode {
+  line-height: 1.2em;
+  padding: 0.8em;
+  .kw { 
+    // KeyWordTok
+    color: $blue; 
+  }
   // DataTypeTok
-  .dt { color: $blue; }
-  // DecValTok (decimal value), BaseNTok, FloatTok
-  .dv, .bn, .fl { color: $magenta; }
+  .dt { 
+    color: $blue;
+  }
+  .dv, 
+  .bn, 
+  .fl { 
+    // DecValTok (decimal value), BaseNTok, FloatTok
+    color: $magenta; 
+  }
   // CharTok
-  .ch { color: $red; }
-  // StringTok
-  .st { color: $cyan; }
-  // CommentTok
-  .co { color: $base0; }
-  // OtherTok
-  .ot { color: $yellow; }
-  // AlertTok
-  .al { color: $orange; font-weight: bold; }
-  // FunctionTok
-  .fu { color: $blue; }
-  // RegionMarkerTok
-  .re { }
-  // ErrorTok
-  t.er { color: $red; font-weight: bold; }
+  .ch { 
+    color: $red; 
+  }
+  .st {
+    // StringTok
+    color: $cyan; 
+  }
+  .co {
+    // CommentTok
+    color: $base0; 
+  }
+  .ot { 
+    // OtherTok
+    color: $yellow; 
+  }
+  .al { 
+    // AlertTok
+    color: $orange;
+    font-weight: bold;
+  }
+  .fu { 
+    // FunctionTok
+    color: $blue; 
+  }
+  .re {
+    // RegionMarkerTok
+  }
+  .er { 
+    // ErrorTok
+    color: $red; font-weight: bold; 
+  }
 }
