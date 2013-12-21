@@ -36,7 +36,7 @@ me instead; I might even edit my posts to take account of feedback.
   "Twitter page").
 - Also [App.net](https://alpha.app.net/abizern)
 - You can see my code on [Github](http://git.io/abizern "GitHub page").
-- I'm active on [Stack Overflow](http://stackoverflow.com/users/41116/abizern" title="Stack Overflow "Stack Overflow").
+- I'm active on [Stack Overflow](http://stackoverflow.com/users/41116/abizern "Stack Overflow").
 - I'm on [Google+](https://plus.google.com/114978774242418167340/posts "Google+
   page"), but it's mostly tumbleweed.
 - No, I don't have a Facebook page.
