@@ -1,7 +1,13 @@
-<li>
-    <a href="$url$">$title$</a> - $date$
+<article>
+    <header>
+        <h1>
+            <a href="$url$">$title$</a>
+        </h1>
+        <span class="post-date">$date$</span> in 
+        <span class="post-tags">$tags$</span>
+    </header>
     $if(description)$
         </br>
-        $description$
+        <em>$description$<em>
     $endif$
-</li>
+</article>
