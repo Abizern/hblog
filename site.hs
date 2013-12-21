@@ -62,7 +62,7 @@ main = hakyll $ do
     route idRoute
     compile $ do
       let indexCtx = field "posts" $ \_ ->
-            completePostList $ fmap (take 8) . recentFirst
+            completePostList $ fmap (take 5) . recentFirst
 
       getResourceBody
         >>= applyAsTemplate indexCtx
