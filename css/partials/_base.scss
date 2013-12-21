@@ -7,7 +7,7 @@ $base-font-size: 18px;
 $max-width: 980px;
 $body-padding: 40px;
 $navigation-padding: 20px;
-$separator-thickness: 4px;
+$separator-thickness: 2px;
 
 %default-links {
   a:link {color: $blue;}
@@ -47,11 +47,13 @@ nav#page_navigation {
 
   ul {
     margin-top: 0.1em;
-    margin-bottom: 0.4em;
+    margin-bottom: 0.3em;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
     text-align: center;
+    border-top: $separator-thickness solid $base01;
+    border-bottom: $separator-thickness solid $base01;
   }
 
   li {
@@ -62,7 +64,7 @@ nav#page_navigation {
 }
 
 #page_header {
-  border-bottom: $separator-thickness solid $base01;
+  
 }
 
 #page_header h1{
