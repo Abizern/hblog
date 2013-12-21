@@ -1,51 +1,84 @@
 @import "pure";
-/* @import "solarized"; */
-/* @import "typography"; */
+@import "solarized";
+@import "typography";
 /* @import "syntax_highlighting"; */
 
-/* $base-font-size: 18px; */
-/* $base-line-size: 1.5; */
-/* $max-width: 980px; */
-/* $navigation-right-padding: 20px; */
-/* $body-padding: 40px; */
+$base-font-size: 18px;
+$max-width: 980px;
+$body-padding: 40px;
+$navigation-padding: 20px;
+$separator-thickness: 4px;
 
-/* body { */
-/*   font-style: normal; */
-/*   font-variant: normal; */
-/*   font-weight: normal; */
-/*   font-size: $base-font-size; */
-/*   line-height: $base-line-size; */
-/*   font-family: $sans; */
-/*   background-color: $base3; */
-/*   color: $base01; */
-/*   max-width: $max-width; */
-/*   margin-left: auto; */
-/*   margin-right: auto; */
-/*   padding-left: $body-padding; */
-/*   padding-right: $body-padding; */
-/*   position: relative; */
-/* } */
+%default-links {
+  a:link {color: $blue;}
+  a:visited {color: $violet}
+  a:hover {color: $red}
+}
 
-/* pre, */
-/* code { */
-/*   font-style: normal; */
-/*   font-variant: normal; */
-/*   font-weight: normal; */
-/*   font-size: 90%; */
-/*   font-family: $mono; */
-/* } */
+%invisible-links {
+  a:link {color: inherit;}
+  a:visited {color: inherit;}
+  a:hover {color: red;}
+  a {text-decoration: none;}
+} 
 
-/* #page_navigation { */
-/*   ul { */
-    
-/*     list-style-type: none; */
-/*     margin: 0; */
-/*     padding: 0; */
-    
-/*     li { */
-/*     display: inline-block; */
-/*     vertical-align: bottom; */
-/*     padding-right: $navigation-right-padding; */
-/*     } */
-/*   } */
-/* } */
+body {
+  @extend %default-links;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: $base-font-size;
+  font-family: $sans;
+  background-color: $base3;
+  color: $base01;
+  max-width: $max-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $body-padding;
+  padding-right: $body-padding;
+}
+
+nav#page_navigation {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: $base3;
+
+  ul {
+    margin-top: 0.1em;
+    margin-bottom: 0.4em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    text-align: center;
+  }
+
+  li {
+    @extend %invisible-links;
+    display: inline;
+    padding-right: $navigation-padding;
+  }
+}
+
+#page_header {
+  border-bottom: $separator-thickness solid $base01;
+}
+
+#page_header h1{
+  @extend %invisible-links;
+  text-align: center;
+  font-size: 3em;
+  margin-top: 0.1em;
+  margin-bottom: 0.4em;
+}
+
+pre,
+code,
+pre > code {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 90%;
+  font-family: $mono;
+}
