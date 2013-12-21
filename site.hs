@@ -9,7 +9,7 @@ import Text.Pandoc
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyll $ do
-  match "CNAME" $ do
+  match (fromList prebuiltFiles) $ do
     route idRoute
     compile copyFileCompiler
   
@@ -38,6 +38,7 @@ main = hakyll $ do
   match "posts/*" $ do
     route niceDateRoute
     compile $ pandocCompiler
+      >>= saveSnapshot "content"
       >>= loadAndApplyTemplate "templates/post.html"    postCtx
       >>= loadAndApplyTemplate "templates/default.html" postCtx
       >>= relativizeUrls
@@ -61,7 +62,7 @@ main = hakyll $ do
     route idRoute
     compile $ do
       let indexCtx = field "posts" $ \_ ->
-            postList $ fmap (take 8) . recentFirst
+            completePostList $ fmap (take 8) . recentFirst
 
       getResourceBody
         >>= applyAsTemplate indexCtx
@@ -78,6 +79,7 @@ main = hakyll $ do
         pandocTocWriter = defaultHakyllWriterOptions { writerTableOfContents = True
                                                      , writerTemplate = "$toc$\n$body$"
                                                      , writerStandalone = True }
+        prebuiltFiles = ["CNAME"]
       
 
 --------------------------------------------------------------------------------
@@ -91,9 +93,16 @@ postList :: ([Item String] -> Compiler [Item String]) -> Compiler String
 postList sortFilter = do
   posts   <- sortFilter =<< loadAll "posts/*"
   itemTpl <- loadBody "templates/post-item.html"
-  list    <- applyTemplateList itemTpl postCtx posts
-  return list
-
+  applyTemplateList itemTpl postCtx posts
+  
+--------------------------------------------------------------------------------
+-- | Returns a list of post bodies
+completePostList :: ([Item String] -> Compiler [Item String]) -> Compiler String
+completePostList sortFilter = do
+  posts   <- sortFilter =<< loadAllSnapshots "posts/*" "content"
+  itemTpl <- loadBody "templates/post.html"
+  applyTemplateList itemTpl postCtx posts
+  
 --------------------------------------------------------------------------------
 dateRoute :: Routes
 dateRoute = gsubRoute "posts/" (const "") `composeRoutes`
