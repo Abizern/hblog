@@ -1,51 +1,51 @@
 @import "pure";
-@import "solarized";
-@import "typography";
-@import "syntax_highlighting";
+/* @import "solarized"; */
+/* @import "typography"; */
+/* @import "syntax_highlighting"; */
 
-$base-font-size: 18px;
-$base-line-size: 1.5;
-$max-width: 980px;
-$navigation-right-padding: 20px;
-$body-padding: 40px;
+/* $base-font-size: 18px; */
+/* $base-line-size: 1.5; */
+/* $max-width: 980px; */
+/* $navigation-right-padding: 20px; */
+/* $body-padding: 40px; */
 
-body {
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  font-size: $base-font-size;
-  line-height: $base-line-size;
-  font-family: $sans;
-  background-color: $base3;
-  color: $base01;
-  max-width: $max-width;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: $body-padding;
-  padding-right: $body-padding;
-  position: relative;
-}
+/* body { */
+/*   font-style: normal; */
+/*   font-variant: normal; */
+/*   font-weight: normal; */
+/*   font-size: $base-font-size; */
+/*   line-height: $base-line-size; */
+/*   font-family: $sans; */
+/*   background-color: $base3; */
+/*   color: $base01; */
+/*   max-width: $max-width; */
+/*   margin-left: auto; */
+/*   margin-right: auto; */
+/*   padding-left: $body-padding; */
+/*   padding-right: $body-padding; */
+/*   position: relative; */
+/* } */
 
-pre,
-code {
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  font-size: 90%;
-  font-family: $mono;
-}
+/* pre, */
+/* code { */
+/*   font-style: normal; */
+/*   font-variant: normal; */
+/*   font-weight: normal; */
+/*   font-size: 90%; */
+/*   font-family: $mono; */
+/* } */
 
-#page_navigation {
-  ul {
+/* #page_navigation { */
+/*   ul { */
     
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+/*     list-style-type: none; */
+/*     margin: 0; */
+/*     padding: 0; */
     
-    li {
-    display: inline-block;
-    vertical-align: bottom;
-    padding-right: $navigation-right-padding;
-    }
-  }
-}
+/*     li { */
+/*     display: inline-block; */
+/*     vertical-align: bottom; */
+/*     padding-right: $navigation-right-padding; */
+/*     } */
+/*   } */
+/* } */
