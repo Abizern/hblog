@@ -1,0 +1,13 @@
+/* humanstxt.org */
+
+/* TEAM */
+Author: Abizer Nasir
+Contact: abizern [at] abizern.org
+Twitter: @abizern
+From: London, UK
+
+/* Site */
+Language: English
+Standards: HTML5, CSS3
+Components: Hakyll, PureCSS
+IDE: Emacs

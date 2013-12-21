@@ -79,7 +79,7 @@ main = hakyll $ do
         pandocTocWriter = defaultHakyllWriterOptions { writerTableOfContents = True
                                                      , writerTemplate = "$toc$\n$body$"
                                                      , writerStandalone = True }
-        prebuiltFiles = ["CNAME"]
+        prebuiltFiles = ["CNAME", "humans.txt", "robots.txt"]
       
 
 --------------------------------------------------------------------------------
