@@ -32,7 +32,7 @@ main = hakyll $ do
     route niceDateRoute
     compile $ pandocCompiler
       >>= saveSnapshot "content"
-      >>= loadAndApplyTemplate "templates/post.html"    postCtx
+      >>= loadAndApplyTemplate "templates/post.html" postCtx
       >>= loadAndApplyTemplate "templates/default.html" postCtx
       >>= relativizeUrls
       >>= removeIndexHtml
@@ -90,7 +90,7 @@ postList sortFilter = do
 completePostList :: ([Item String] -> Compiler [Item String]) -> Compiler String
 completePostList sortFilter = do
   posts   <- sortFilter =<< loadAllSnapshots "posts/*" "content"
-  itemTpl <- loadBody "templates/post.html"
+  itemTpl <- loadBody "templates/post-with-link.html"
   applyTemplateList itemTpl postCtx posts
   
 --------------------------------------------------------------------------------
