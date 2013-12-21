@@ -63,16 +63,18 @@ nav#page_navigation {
   }
 }
 
-#page_header {
-  
-}
-
 #page_header h1{
   @extend %invisible-links;
   text-align: center;
   font-size: 3em;
   margin-top: 0.1em;
   margin-bottom: 0.4em;
+}
+
+#page_footer {
+  text-align: center;
+  border-top: $separator-thickness solid $base01;
+  padding: 1em 0;
 }
 
 pre,
