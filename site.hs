@@ -21,13 +21,6 @@ main = hakyll $ do
     route $ setExtension "css"
     compile $ getResourceString >>= sassify
 
-  match (fromList pages) $ do
-    route niceRoute
-    compile $ pandocCompiler
-      >>= loadAndApplyTemplate "templates/default.html" defaultContext
-      >>= relativizeUrls
-      >>= removeIndexHtml
-
   match (fromList pagesWithToc) $ do
     route niceRoute
     compile $ pandocCompilerWith defaultHakyllReaderOptions pandocTocWriter
@@ -72,10 +65,7 @@ main = hakyll $ do
 
   match "templates/*" $ compile templateCompiler
 
-  where pages = ["about.markdown"
-                , "copyright-statement.markdown"
-                ]
-        pagesWithToc = ["cocoa-coding-conventions.markdown"]
+  where pagesWithToc = ["about.markdown", "cocoa-coding-conventions.markdown"]
         pandocTocWriter = defaultHakyllWriterOptions { writerTableOfContents = True
                                                      , writerTemplate = "$toc$\n$body$"
                                                      , writerStandalone = True }
