@@ -20,7 +20,12 @@ $separator-thickness: 2px;
   a:visited {color: inherit;}
   a:hover {color: red;}
   a {text-decoration: none;}
-} 
+}
+
+.italic-serif {
+  font-family: $serif;
+  font-style: italic;
+}
 
 body {
   @extend %default-links;
@@ -82,6 +87,20 @@ section footer {
   border-top: $separator-thickness solid $base01;
   padding: 1em 0;
 }
+
+article {
+  header {
+    h1 {
+      margin-bottom: 0.25em;
+    }
+  }
+}
+
+.post-date {
+  @extend .italic-serif;
+}
+
+
 
 pre,
 code,
