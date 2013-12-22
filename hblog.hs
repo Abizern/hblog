@@ -69,7 +69,7 @@ main = hakyll $ do
             defaultContext
 
       makeItem ""
-        >>= loadAndApplyTemplate "templates/archive.html" noteCtx
+        >>= loadAndApplyTemplate "templates/notes.html" noteCtx
         >>= loadAndApplyTemplate "templates/default.html" noteCtx
         >>= relativizeUrls
         >>= removeIndexHtml
