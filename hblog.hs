@@ -24,6 +24,7 @@ main = hakyll $ do
   match (fromList pagesWithToc) $ do
     route niceRoute
     compile $ pandocCompilerWith defaultHakyllReaderOptions pandocTocWriter
+      >>= loadAndApplyTemplate "templates/page-with-toc.html" defaultContext
       >>= loadAndApplyTemplate "templates/default.html" defaultContext
       >>= relativizeUrls
       >>= removeIndexHtml
@@ -67,7 +68,7 @@ main = hakyll $ do
 
   where pagesWithToc = ["about.markdown", "cocoa-coding-conventions.markdown"]
         pandocTocWriter = defaultHakyllWriterOptions { writerTableOfContents = True
-                                                     , writerTemplate = "$toc$\n$body$"
+                                                     , writerTemplate = "$if(toc)$ $toc$ $endif$\n$body$"
                                                      , writerStandalone = True }
         prebuiltFiles = ["CNAME", "humans.txt", "robots.txt"]
       
@@ -92,7 +93,7 @@ completePostList sortFilter = do
   posts   <- sortFilter =<< loadAllSnapshots "posts/*" "content"
   itemTpl <- loadBody "templates/post-with-link.html"
   applyTemplateList itemTpl postCtx posts
-  
+
 --------------------------------------------------------------------------------
 dateRoute :: Routes
 dateRoute = gsubRoute "posts/" (const "") `composeRoutes`
