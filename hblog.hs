@@ -21,7 +21,15 @@ main = hakyll $ do
     route $ setExtension "css"
     compile $ getResourceString >>= sassify
 
-  match (fromList pagesWithToc) $ do
+  match "notes/*" $ do
+    route noteRoute
+    compile $ pandocCompilerWith defaultHakyllReaderOptions pandocTocWriter
+      >>= loadAndApplyTemplate "templates/page-with-toc.html" defaultContext
+      >>= loadAndApplyTemplate "templates/default.html" defaultContext
+      >>= relativizeUrls
+      >>= removeIndexHtml
+
+  match "about.markdown" $ do
     route niceRoute
     compile $ pandocCompilerWith defaultHakyllReaderOptions pandocTocWriter
       >>= loadAndApplyTemplate "templates/page-with-toc.html" defaultContext
@@ -115,6 +123,11 @@ niceRoute = customRoute createIndexRoute
 -- |Turns 2012-02-01-post.html into 2012/02/01/post/index.html
 niceDateRoute :: Routes
 niceDateRoute = composeRoutes dateRoute niceRoute
+
+--------------------------------------------------------------------------------
+-- | Turns notes/post.html into /post/index.html
+noteRoute :: Routes
+noteRoute = gsubRoute "notes/" (const "") `composeRoutes` niceRoute
 
 --------------------------------------------------------------------------------
 -- |Replace an url of the form foo/bar/index.html by foo/bar
