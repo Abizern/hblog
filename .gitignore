@@ -4,7 +4,7 @@
 # Generated files
 *.o
 *.hi
-site
+hblog
 _cache
 _site
 .sass-cache/
