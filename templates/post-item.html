@@ -3,11 +3,19 @@
         <h1>
             <a href="$url$">$title$</a>
         </h1>
-        <span class="post-date">$date$</span> in 
-        <span class="post-tags">$tags$</span>
+        <p>
+        $if(date)$
+          <span class="post-date">$date$</span>
+        $endif$
+  
+        $if(tags)$
+          in <span class="post-tags">$tags$</span>
+        $endif$
+
+        </p>
     </header>
     
     $if(description)$
-    <p class="italic-serif">$description$</p>
+      <p class="italic-serif">$description$</p>
     $endif$
 </article>

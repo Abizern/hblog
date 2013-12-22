@@ -60,6 +60,20 @@ main = hakyll $ do
         >>= relativizeUrls
         >>= removeIndexHtml
 
+  create ["notes.html"] $ do
+    route niceRoute
+    compile $ do
+      let noteCtx =
+            field "posts" (const noteList) `mappend`
+            constField "title" "Notes"     `mappend`
+            defaultContext
+
+      makeItem ""
+        >>= loadAndApplyTemplate "templates/archive.html" noteCtx
+        >>= loadAndApplyTemplate "templates/default.html" noteCtx
+        >>= relativizeUrls
+        >>= removeIndexHtml
+        
   match "index.html" $ do
     route idRoute
     compile $ do
@@ -74,8 +88,7 @@ main = hakyll $ do
 
   match "templates/*" $ compile templateCompiler
 
-  where pagesWithToc = ["about.markdown", "cocoa-coding-conventions.markdown"]
-        pandocTocWriter = defaultHakyllWriterOptions { writerTableOfContents = True
+  where pandocTocWriter = defaultHakyllWriterOptions { writerTableOfContents = True
                                                      , writerTemplate = "$if(toc)$ $toc$ $endif$\n$body$"
                                                      , writerStandalone = True }
         prebuiltFiles = ["CNAME", "humans.txt", "robots.txt"]
@@ -91,6 +104,13 @@ postCtx =
 postList :: ([Item String] -> Compiler [Item String]) -> Compiler String
 postList sortFilter = do
   posts   <- sortFilter =<< loadAll "posts/*"
+  itemTpl <- loadBody "templates/post-item.html"
+  applyTemplateList itemTpl postCtx posts
+
+--------------------------------------------------------------------------------
+noteList :: Compiler String
+noteList = do
+  posts   <- loadAll "notes/*"
   itemTpl <- loadBody "templates/post-item.html"
   applyTemplateList itemTpl postCtx posts
   

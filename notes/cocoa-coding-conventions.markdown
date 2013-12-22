@@ -1,5 +1,6 @@
 ---
 title: Cocoa Coding Conventions
+description: Consistent code is more readable. This is so I can remember what I've decided on.
 ---
 
 ## Purpose
