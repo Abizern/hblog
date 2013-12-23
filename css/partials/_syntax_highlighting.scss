@@ -7,7 +7,7 @@
   border: none;
 }
 
-%rounded-border {
+%rounded-border-and-code-font {
   font-size: 0.8em;
   line-height: 1.5em;
   border: 1px solid $yellow;
@@ -20,7 +20,6 @@
 
 table.sourceCode  {
   @extend %no_layout;
-  @extend rounded-border;
   width: 100%;
   background-color: inherit;
   overflow-x: auto;
@@ -43,22 +42,14 @@ td.sourceCode {
 }
 
 pre {
+  @extend %rounded-border-and-code-font;
+  white-space: pre;
   word-wrap: normal;
   overflow-x: auto;
   
 }
 pre.sourceCode {
-  font-size: 0.8em;
-  line-height: 1.5em;
-  border: 1px solid $yellow;
-  -webkit-border-radius: 0.4em;
-  -moz-border-radius: 0.4em;
-  -ms-border-radius: 0.4em;
-  -o-border-radius: 0.4em;
-  padding: 0.4em;
-
-  white-space: pre;
-  overflow: auto;
+  @extend %rounded-border-and-code-font;
 
   .kw { 
     // KeyWordTok
