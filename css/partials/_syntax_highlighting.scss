@@ -7,10 +7,23 @@
   border: none;
 }
 
+%rounded-border {
+  font-size: 0.8em;
+  line-height: 1.5em;
+  border: 1px solid $yellow;
+  -webkit-border-radius: 0.4em;
+  -moz-border-radius: 0.4em;
+  -ms-border-radius: 0.4em;
+  -o-border-radius: 0.4em;
+  padding: 0.4em;
+}
+
 table.sourceCode  {
   @extend %no_layout;
+  @extend rounded-border;
   width: 100%;
   background-color: inherit;
+  overflow-x: auto;
 }
 
 tr.sourceCode {
@@ -29,6 +42,11 @@ td.sourceCode {
   padding-left: 5px;
 }
 
+pre {
+  word-wrap: normal;
+  overflow-x: auto;
+  
+}
 pre.sourceCode {
   font-size: 0.8em;
   line-height: 1.5em;
@@ -38,6 +56,10 @@ pre.sourceCode {
   -ms-border-radius: 0.4em;
   -o-border-radius: 0.4em;
   padding: 0.4em;
+
+  white-space: pre;
+  overflow: auto;
+
   .kw { 
     // KeyWordTok
     color: $blue; 
@@ -98,4 +120,3 @@ li code {
   padding: 0 0.3em;
   margin: -1px 0;
 }
-
