@@ -1,10 +1,5 @@
 @import "solarized";
 
-pre,
-code {
-  background-color: $base2;
-}
-
 %no_layout  {
   margin: 0;
   padding: 0;
@@ -15,7 +10,7 @@ code {
 table.sourceCode  {
   @extend %no_layout;
   width: 100%;
-  background-color: $base2;
+  background-color: inherit;
 }
 
 tr.sourceCode {
@@ -35,8 +30,14 @@ td.sourceCode {
 }
 
 pre.sourceCode {
-  line-height: 1.2em;
-  padding: 0.8em;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  border: 1px solid $yellow;
+  -webkit-border-radius: 0.4em;
+  -moz-border-radius: 0.4em;
+  -ms-border-radius: 0.4em;
+  -o-border-radius: 0.4em;
+  padding: 0.4em;
   .kw { 
     // KeyWordTok
     color: $blue; 
@@ -84,3 +85,17 @@ pre.sourceCode {
     color: $red; font-weight: bold; 
   }
 }
+
+p code,
+li code {
+  font-size: 0.8em;
+  line-height: 1.5em;
+  border: 1px solid $yellow;
+  -webkit-border-radius: 0.4em;
+  -moz-border-radius: 0.4em;
+  -ms-border-radius: 0.4em;
+  -o-border-radius: 0.4em;
+  padding: 0 0.3em;
+  margin: -1px 0;
+}
+
