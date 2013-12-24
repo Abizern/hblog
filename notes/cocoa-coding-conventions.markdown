@@ -1,6 +1,7 @@
 ---
 title: Cocoa Coding Conventions
-description: Consistent code is more readable. This is so I can remember what I've decided on.
+description: Consistent code is more readable. These are my choices, feel free
+  to use them or adapt them to your own style.
 ---
 
 ## Purpose
