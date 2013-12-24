@@ -118,7 +118,7 @@ main = hakyll $ do
   where pandocTocWriter = defaultHakyllWriterOptions { writerTableOfContents = True
                                                      , writerTemplate = "$if(toc)$ $toc$ $endif$\n$body$"
                                                      , writerStandalone = True }
-        staticFiles = ["CNAME", "humans.txt", "robots.txt", "favicon.png"]
+        staticFiles = ["CNAME", "humans.txt", "robots.txt", "favicon.png", "favicon.ico"]
       
 
 --------------------------------------------------------------------------------
