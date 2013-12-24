@@ -13,7 +13,7 @@ main = hakyll $ do
 
   let postTagsCtx = postCtx tags
   
-  match (fromList prebuiltFiles) $ do
+  match (fromList staticFiles) $ do
     route idRoute
     compile copyFileCompiler
   
@@ -111,7 +111,7 @@ main = hakyll $ do
   where pandocTocWriter = defaultHakyllWriterOptions { writerTableOfContents = True
                                                      , writerTemplate = "$if(toc)$ $toc$ $endif$\n$body$"
                                                      , writerStandalone = True }
-        prebuiltFiles = ["CNAME", "humans.txt", "robots.txt"]
+        staticFiles = ["CNAME", "humans.txt", "robots.txt", "favicon.png"]
       
 
 --------------------------------------------------------------------------------
