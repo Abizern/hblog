@@ -77,6 +77,13 @@ main = hakyll $ do
         >>= loadAndApplyTemplate "templates/default.html" noteCtx
         >>= relativizeUrls
         >>= removeIndexHtml
+
+  create ["atom.xml"] $ do
+    route idRoute
+    compile $ do
+      loadAllSnapshots "posts/*" "content"
+        >>= fmap (take 10) . recentFirst
+        >>= renderRss (feedConfiguration "All posts") feedCtx
         
   match "index.html" $ do
     route idRoute
@@ -190,3 +197,21 @@ removeIndexStr url = case splitFileName url of
 sassify :: Item String -> Compiler (Item String)
 sassify item = withItemBody (unixFilter "sass" ["-s", "--scss", "--load-path", "css"]) item
                >>= return . fmap compressCss
+
+--------------------------------------------------------------------------------
+-- | Feeds
+
+feedCtx :: Context String
+feedCtx = mconcat
+          [ bodyField "description"
+          , defaultContext
+          ]
+
+feedConfiguration :: String -> FeedConfiguration
+feedConfiguration title = FeedConfiguration
+                          { feedTitle       = "Abizern.org - " ++ title
+                          , feedDescription = "The developer and personal blog of Abizer Nasir, a freelance iOS and OS X developer in London, UK"
+                          , feedAuthorName  = "Abizer Nasir"
+                          , feedAuthorEmail = "abizern@abizern.org"
+                          , feedRoot        = "http://abizern.org"
+                          }
