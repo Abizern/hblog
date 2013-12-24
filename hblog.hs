@@ -1,7 +1,7 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
 import Hakyll
-import Data.Monoid (mappend)
+import Data.Monoid ((<>), mconcat, mappend)
 import Data.List (isInfixOf)
 import System.FilePath.Posix  (takeBaseName,takeDirectory,(</>),splitFileName)
 import Text.Pandoc
@@ -9,6 +9,10 @@ import Text.Pandoc
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyll $ do
+  tags <- buildTags "posts/*" (fromCapture "tags/*")
+
+  let postTagsCtx = postCtx tags
+  
   match (fromList prebuiltFiles) $ do
     route idRoute
     compile copyFileCompiler
@@ -41,8 +45,8 @@ main = hakyll $ do
     route niceDateRoute
     compile $ pandocCompiler
       >>= saveSnapshot "content"
-      >>= loadAndApplyTemplate "templates/post.html" postCtx
-      >>= loadAndApplyTemplate "templates/default.html" postCtx
+      >>= loadAndApplyTemplate "templates/post.html" (postCtx tags)
+      >>= loadAndApplyTemplate "templates/default.html" (postCtx tags)
       >>= relativizeUrls
       >>= removeIndexHtml
 
@@ -50,8 +54,8 @@ main = hakyll $ do
     route niceRoute
     compile $ do
       let archiveCtx =
-            field "posts" (\_ -> postList recentFirst) `mappend`
-            constField "title" "Archive"               `mappend`
+            field "posts" (\_ -> postList tags recentFirst)   `mappend`
+            constField "title" "Archive"                      `mappend`
             defaultContext
 
       makeItem ""
@@ -78,11 +82,27 @@ main = hakyll $ do
     route idRoute
     compile $ do
       let indexCtx = field "posts" $ \_ ->
-            completePostList $ fmap (take 5) . recentFirst
+            completePostList tags $ fmap (take 5) . recentFirst
 
       getResourceBody
         >>= applyAsTemplate indexCtx
-        >>= loadAndApplyTemplate "templates/default.html" postCtx
+        >>= loadAndApplyTemplate "templates/default.html" (postCtx tags)
+        >>= relativizeUrls
+        >>= removeIndexHtml
+
+  tagsRules tags $ \tag pattern -> do
+    let title = "Posts tagged " ++ tag
+
+    route niceRoute
+    compile $ do
+      posts <- recentFirst =<< loadAll pattern
+      let ctx = constField "title" title <>
+                listField "posts" (postCtx tags) (return posts) <>
+                defaultContext
+
+      makeItem ""
+        >>= loadAndApplyTemplate "templates/tag.html" ctx
+        >>= loadAndApplyTemplate "templates/default.html" ctx
         >>= relativizeUrls
         >>= removeIndexHtml
 
@@ -95,32 +115,33 @@ main = hakyll $ do
       
 
 --------------------------------------------------------------------------------
-postCtx :: Context String
-postCtx =
-  dateField "date" "%B %e, %Y" `mappend`
-  defaultContext
-
+postCtx :: Tags -> Context String
+postCtx tags = mconcat
+               [ dateField "date" "%B %e, %Y"
+               , tagsField "tags" tags
+               , defaultContext
+               ]
 --------------------------------------------------------------------------------
-postList :: ([Item String] -> Compiler [Item String]) -> Compiler String
-postList sortFilter = do
+postList :: Tags -> ([Item String] -> Compiler [Item String]) -> Compiler String
+postList tags sortFilter = do
   posts   <- sortFilter =<< loadAll "posts/*"
   itemTpl <- loadBody "templates/post-item.html"
-  applyTemplateList itemTpl postCtx posts
+  applyTemplateList itemTpl (postCtx tags) posts
 
 --------------------------------------------------------------------------------
-noteList :: Compiler String
+noteList ::  Compiler String
 noteList = do
   posts   <- loadAll "notes/*"
   itemTpl <- loadBody "templates/post-item.html"
-  applyTemplateList itemTpl postCtx posts
+  applyTemplateList itemTpl defaultContext posts
   
 --------------------------------------------------------------------------------
 -- | Returns a list of post bodies
-completePostList :: ([Item String] -> Compiler [Item String]) -> Compiler String
-completePostList sortFilter = do
+completePostList :: Tags -> ([Item String] -> Compiler [Item String]) -> Compiler String
+completePostList tags sortFilter = do
   posts   <- sortFilter =<< loadAllSnapshots "posts/*" "content"
   itemTpl <- loadBody "templates/post-with-link.html"
-  applyTemplateList itemTpl postCtx posts
+  applyTemplateList itemTpl (postCtx tags) posts
 
 --------------------------------------------------------------------------------
 dateRoute :: Routes
