@@ -5,9 +5,34 @@
 
 $base-font-size: 18px;
 $max-width: 980px;
-$body-padding: 40px;
 $navigation-padding: 20px;
 $separator-thickness: 2px;
+
+$body-padding-wide: 40px;
+$body-padding-medium: 20px;
+$body-padding-narrow: 8px;
+
+@media only screen and (min-width: 320px) {
+  body {
+    padding-left: $body-padding-narrow;
+    padding-right: $body-padding-narrow;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    padding-left: $body-padding-medium;
+    padding-right: $body-padding-medium;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  body {
+    padding-left: $body-padding-wide;
+    padding-right: $body-padding-wide;
+  }
+}
+
 
 %default-links {
   a:link {color: $blue;}
@@ -39,8 +64,6 @@ body {
   max-width: $max-width;
   margin-left: auto;
   margin-right: auto;
-  padding-left: $body-padding;
-  padding-right: $body-padding;
 }
 
 nav#page_navigation {
