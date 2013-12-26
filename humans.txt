@@ -2,8 +2,11 @@
 
 /* TEAM */
 Author: Abizer Nasir
-Contact: abizern [at] abizern.org
+Contact: abizern@abizern.org
 Twitter: @abizern
+App.net: @abizern
+LinkedIn: http://www.linkedin.com/e/fpf/82724921
+GitHub: http://github.com/Abizern
 From: London, UK
 
 /* Site */
