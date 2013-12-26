@@ -22,3 +22,10 @@ things that make this a bit more difficult than normal. But, many people have
 made their site code public as
 [examples](http://jaspervdj.be/hakyll/examples.html), and this is very useful
 in getting started. I hope that my source shows up in that list in due course.
+
+Despite what some wags may have said on
+[Twitter](https://twitter.com/alexrozanski/status/415797308220264448); it's not
+actually that hip.
+
+![Twitter screenshot](http://images.abizern.org/2013/12/hakyll-hipster.png)
+
