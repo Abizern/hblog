@@ -9,6 +9,12 @@ description: Keyboard shortcuts and usage notes.
 brew install emacs --cocoa --srgb
 ```
 
+## emacs.d
+
+These work for may [dotfiles](https://github.com/Abizern/prelude), based off
+[Emacs Prelude](http://batsov.com/prelude/), which should be cloned to
+`~/.emacs.d`. There are no submodules in this repository.
+
 ## General
 
 --------------   --------------------------------------
