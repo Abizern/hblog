@@ -8,7 +8,7 @@ import Text.Pandoc
 
 --------------------------------------------------------------------------------
 main :: IO ()
-main = hakyll $ do
+main = hakyllWith config $ do
   tags <- buildTags "posts/*" (fromCapture "tags/*")
 
   let postTagsCtx = postCtx tags
@@ -215,3 +215,6 @@ feedConfiguration title = FeedConfiguration
                           , feedAuthorEmail = "abizern@abizern.org"
                           , feedRoot        = "http://abizern.org"
                           }
+
+config :: Configuration
+config = defaultConfiguration { deployCommand = "./publish.sh" }
