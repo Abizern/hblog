@@ -186,7 +186,7 @@ Bookmarks are not saved by default, saved on quit.
 `C-h m`    Help for mode
 --------------------------------------------------
 
-### Projectile
+## Projectile
 
 ----------  --------------------------------------------------------------------
 `C-c p f`   Display a list of all files in the project.
