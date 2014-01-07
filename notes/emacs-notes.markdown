@@ -89,12 +89,12 @@ brew install emacs --cocoa --srgb
 ## Key-Chords
 
 -----  -------------------------------------------------------------------------
-`jj`   Jump to the beginning of a word(`ace-jump-word-mode`)
-`jk`   Jump to a character(`ace-jump-char-mode`)
-`jl`   Jump to the beginning of a line(`ace-jump-line-mode`)
-`JJ`   Jump back to previous buffer(`prelude-switch-to-previous-buffer`)
-`uu`   View edits as a tree(`undo-tree-visualize`)
-`xx`   Execute extended command(`execute-extended-command`)
+`jj`   Jump to the beginning of a word (`ace-jump-word-mode`)
+`jk`   Jump to a character (`ace-jump-char-mode`)
+`jl`   Jump to the beginning of a line (`ace-jump-line-mode`)
+`JJ`   Jump back to previous buffer (`prelude-switch-to-previous-buffer`)
+`uu`   View edits as a tree (`undo-tree-visualize`)
+`xx`   Execute extended command (`execute-extended-command`)
 `yy`   Browse the kill ring (`browse-kill-ring`)
 `kk`   (`just-one-space`)
 `KK`   (`delete-horizontal-space`)
