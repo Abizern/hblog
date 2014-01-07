@@ -1,6 +1,6 @@
 ---
 title: Hakyll New Post With Emacs
-tags: meta, hakyll, emacs
+tags: meta, hakyll, emacs, lisp
 description: Create a new hakyll page from within Emacs.
 ---
 
