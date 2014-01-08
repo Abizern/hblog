@@ -11,8 +11,6 @@ main :: IO ()
 main = hakyllWith config $ do
   tags <- buildTags "posts/*" (fromCapture "tags/*")
 
-  let postTagsCtx = postCtx tags
-  
   match (fromList staticFiles) $ do
     route idRoute
     compile copyFileCompiler
