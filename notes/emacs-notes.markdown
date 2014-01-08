@@ -11,7 +11,7 @@ brew install emacs --cocoa --srgb
 
 ## emacs.d
 
-These work for may [dotfiles](https://github.com/Abizern/prelude), based off
+These work for my [dotfiles](https://github.com/Abizern/prelude), based off
 [Emacs Prelude](http://batsov.com/prelude/), which should be cloned to
 `~/.emacs.d`. There are no submodules in this repository.
 
