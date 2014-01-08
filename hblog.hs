@@ -215,4 +215,4 @@ feedConfiguration title = FeedConfiguration
                           }
 
 config :: Configuration
-config = defaultConfiguration { deployCommand = "./publish.sh" }
+config = defaultConfiguration { deployCommand = "./_publish.sh" }
