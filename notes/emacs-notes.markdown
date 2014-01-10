@@ -60,6 +60,7 @@ These work for my [dotfiles](https://github.com/Abizern/prelude), based off
 `C-s up`        Move current line or region up
 `C-s down`      Move current line or region down
 `M-g g`         Go to line
+`C-=`           expand-region
 ---------------------------------------------------------
 
 ## Buffers
