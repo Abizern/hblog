@@ -5,15 +5,23 @@ description: Keyboard shortcuts and usage notes.
 
 ## Installation
 
+
+### Emacs
 ```bash
 brew install emacs --cocoa --srgb
 ```
 
-## emacs.d
+### .emacs.d
 
 These work for my [dotfiles](https://github.com/Abizern/prelude), based off
 [Emacs Prelude](http://batsov.com/prelude/), which should be cloned to
 `~/.emacs.d`. There are no submodules in this repository.
+
+Install with the customised script
+
+```bash
+curl -L https://github.com/Abizern/prelude/raw/master/utils/installer.sh | sh
+```
 
 ## General
 
