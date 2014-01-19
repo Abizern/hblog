@@ -180,6 +180,13 @@ Bookmarks are not saved by default, saved on quit.
 `C-x r b <name>`  Jump to bookmark
 --------------------------------------------------
 
+## Special Characters
+
+---------------  ---------------------------------
+C-x 8 C-h        List of special characters
+C-x 8 L          £
+---------------  ---------------------------------
+
 ## Help
 
 ---------  ---------------------------------------
