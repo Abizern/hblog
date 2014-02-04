@@ -42,7 +42,7 @@ I'm usually available for contract work, so please feel free to get in touch by
 <a
 href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#98;&#105;&#122;&#101;&#114;&#110;&#64;&#97;&#98;&#105;&#122;&#101;&#114;&#110;&#46;&#111;&#114;&#103;'>&#101;&#109;&#97;&#105;&#108;</a>.
 
-However, I'm not available until the beginning of 2014.
+However, I'm not available at the moment. Which is good for me.
 
 ## Links
 
