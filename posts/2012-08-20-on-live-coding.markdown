@@ -1,6 +1,6 @@
 ---
 title: On Live Coding
-description: Videos of programmers workingg
+description: Videos of programmers working
 tags: haskell, ruby
 ---
 
