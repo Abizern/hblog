@@ -16,15 +16,14 @@ Just to make it easier, you can have a look at an example Xcode Workspace that I
 [put up on Github](https://github.com/Abizern/SimpleLocalisationTesting "Simple Localisation
 Testing"). This has two projects within it, one for the Mac and one for the iPhone.
 
-{% img http://images.abizern.org/2012/03/Schemes.png 631 111 Xcode Schemes %}
+![Xcode Schemes](http://images.abizern.org/2012/03/Schemes.png)
 
 Start by having a look at the schemes. There are two projects with two schemes each, one for each
 localisation. Handily named so you can tell which is for which.
 
+![en Run action](http://images.abizern.org/2012/03/RunAction_en.png)
 
-{% img top http://images.abizern.org/2012/03/RunAction_en.png 525 135 en run action %}
-
-{% img top http://images.abizern.org/2012/03/RunAction_es.png 525 133 en run action %}
+![es Run action](http://images.abizern.org/2012/03/RunAction_es.png)
 
 If you have a a look at the run action for these schemes you can see the arguments that I am
 passing. First the `-AppleLanguages` argument and then the two character country code (with the
