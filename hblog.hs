@@ -231,7 +231,7 @@ deployScript = "echo \"-- Publishing to abizern.org\" &&\
                \rm -rf * && \
                \cp -r ../_site/ . && \
                \echo \"-- Commiting changes\" && \
-               \dt=`date \"+%Y-%m-%d %H:%M:%S %Z\"` && \
+               \dt=`date -u \"+%Y-%m-%d %H:%M:%S %Z\"` && \
                \message=\"Site update at $dt\" && \
                \git add . && \
                \git commit -m\"$message\" && \
