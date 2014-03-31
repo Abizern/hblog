@@ -19,7 +19,7 @@ This is how I roll, you might choose a different path.
 4. Install [quicklisp](http://quicklisp.org); from Terminal go to a temporary
    directory and download quicklisp.lisp with `curl -O
    http://beta.quicklisp.org/quicklisp.lisp`. Then run the lisp file from clisp
-   with `clisp-i quicklisp.lisp`. As the instructions say, evaluate
+   with `clisp -i quicklisp.lisp`. As the instructions say, evaluate
    `(quicklisp-quickstart:install)`, and then evaluate `(ql:add-to-init-file)`
    to load quicklisp along with lisp.
 
