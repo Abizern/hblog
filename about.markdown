@@ -1,6 +1,6 @@
 ---
 title: About me
-description: I'm just this guy, you know.
+description: iOS and OS X developer in London. But really, I'm just this guy, you know?
 ---
 
 ## About
@@ -14,6 +14,7 @@ scuba diving and occasionally I'll strum my guitar.
 You can find me online, mostly with the username `abizern`, and the avatar image
 that I use almost everywhere is based on this photograph of me. A bit old, and I
 should really have had a shave, but it's me.
+
 
 My DVCS of choice is [Git](http://git-scm.com "Main Git site"), and I
 intermittently blog about it at [365Git](http://365git.tumblr.com). Although I
@@ -38,17 +39,15 @@ href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#98;&#105;&#122;&#101;&#114;
 me instead; I might even edit my posts to take account of feedback.
 
 ## Availability
-I'm usually available for contract work, so please feel free to get in touch by
+I'm not currently available for contract work until at least April 2015, but please feel free to get in touch by
 <a
 href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#98;&#105;&#122;&#101;&#114;&#110;&#64;&#97;&#98;&#105;&#122;&#101;&#114;&#110;&#46;&#111;&#114;&#103;'>&#101;&#109;&#97;&#105;&#108;</a>.
 
-However, I'm not available at the moment. Which is good for me.
 
 ## Links
 
 - Most of the time you can get me on [Twitter](http://twitter.com/#!/abizern
   "Twitter page").
-- Also [App.net](https://alpha.app.net/abizern)
 - You can see my code on [Github](http://git.io/abizern "GitHub page").
 - I'm active on [Stack Overflow](http://stackoverflow.com/users/41116/abizern "Stack Overflow").
 - I'm on [Google+](https://plus.google.com/114978774242418167340/posts "Google+
@@ -70,8 +69,3 @@ The colour scheme is taken from the
 
 The posts are invariably written using Emacs. And yes, the main font is
 Helvetica; deal with it.
-
-
-
-
-
