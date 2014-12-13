@@ -12,6 +12,6 @@ popular and even gained me my first mention in [iOS Dev Weekly](https://iosdevwe
 Just to make this more complete here is a link to the slides and a Swift
 Playground that you can use to play around with the examples.
 
-[http://downloads.abizern.org/FizBuzzery.zip](http://downloads.abizern.org/FizBuzzery.zip)
+[http://downloads.abizern.org/FizzBuzzery.zip](http://downloads.abizern.org/FizzBuzzery.zip)
 
 Have fun!
