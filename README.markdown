@@ -7,6 +7,19 @@ updated with
 
     cabal install hakyll --enable-shared
 
+## Dependencies:
+
+### Ruby
+
+- sass
+- compass
+
+### setup
+
+- _publish directory should be setup up as a clone of the upstream deployment
+  repository with the remote name of `github`. This is not a submodule and the
+  relevant entry has been made to the .gitignore file.
+
 ## License
 
 This configuration and setup code for this blog is under the MIT License. See
