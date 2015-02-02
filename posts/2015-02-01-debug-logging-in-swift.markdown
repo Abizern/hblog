@@ -15,7 +15,8 @@ I use a version of [Dlog](https://gist.github.com/Abizern/325926) myself, which
 has the added benefit of only outputting to the console when in Debug
 configurations, which PrintLnMagic does not do.
 
-So, I wrote this (available as a [gist](https://gist.github.com/Abizern/a81f31a75e1ad98ff80d#file-loggingprintln-swift)
+So, I wrote this (available as a
+[gist](https://gist.github.com/Abizern/a81f31a75e1ad98ff80d#file-loggingprintln-swift)
 
 ```swift
 /**
@@ -47,6 +48,17 @@ I'm not overriding `printLn()` because I'm not sure clobbering such a widely
 used system function is a good idea.
 
 Of course Swift projects don't work the same way as Objective-C projects, so it
-isn't enough to just have the debug configuration, this needs to have the Debug
-flag set in the "Other Swift Flags" section.
+isn't enough to just have the debug configuration, this needs to have the `-D
+DEBUG` flag set in the "Other Swift Flags" section under Debug.
+
+![](http://images.abizern.org.s3.amazonaws.com/2015/01/Debug%20flag%20in%20swift.png)
+
+Installation is simple enough, this is just a single bare function, so just
+download the file and add it to your project. Call `loggingPrintln()`
+just as you would `println()`, only passing a value for the first parameter; the
+defaults will take care of the rest.
+
+
+
+
 
