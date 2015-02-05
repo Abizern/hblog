@@ -33,6 +33,14 @@ download the file and add it to your project. Call `loggingPrintln()`
 just as you would `println()`, only passing a value for the first parameter; the
 defaults will take care of the rest.
 
+**Update Feb 5, 2015**
+
+Rather than just passing an object or a value, the function can now take an
+expression for the first parameter. That way, the expression is only evaluated
+if the function body runs. Laziness is a virtue.
+
+Thanks to [@rob_rix](https://twitter.com/rob_rix) and
+[@jl_hfl](https://twitter.com/jl_hfl) for the suggestion.
 
 
 
