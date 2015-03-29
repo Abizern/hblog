@@ -48,6 +48,14 @@ main = hakyllWith config $ do
       >>= relativizeUrls
       >>= removeIndexHtml
 
+  match "talks/*" $ do
+    route talkRoute
+    compile $ pandocCompiler
+      >>= loadAndApplyTemplate "templates/talk.html" talkCtx
+      >>= loadAndApplyTemplate "templates/default.html" talkCtx
+      >>= relativizeUrls
+      >>= removeIndexHtml
+
   create ["archive.html"] $ do
     route niceRoute
     compile $ do
@@ -66,7 +74,7 @@ main = hakyllWith config $ do
     route niceRoute
     compile $ do
       let noteCtx =
-            field "posts" (const noteList) `mappend`
+            field "notes" (const noteList) `mappend`
             constField "title" "Notes"     `mappend`
             defaultContext
 
@@ -74,6 +82,19 @@ main = hakyllWith config $ do
         >>= loadAndApplyTemplate "templates/notes.html" noteCtx
         >>= loadAndApplyTemplate "templates/default.html" noteCtx
         >>= relativizeUrls
+        >>= removeIndexHtml
+
+  create ["talks.html"] $ do
+    route niceRoute
+    compile $ do
+      let talkCtx =
+            field "talks" (const talkList) `mappend`
+            constField "title" "Talks"     `mappend`
+            defaultContext
+
+      makeItem ""
+        >>= loadAndApplyTemplate "templates/talks.html" talkCtx
+        >>= loadAndApplyTemplate "templates/default.html" talkCtx
         >>= removeIndexHtml
 
   create ["atom.xml"] $ do
@@ -126,6 +147,13 @@ postCtx tags = mconcat
                , tagsField "tags" tags
                , defaultContext
                ]
+
+--------------------------------------------------------------------------------
+talkCtx :: Context String
+talkCtx = mconcat
+          [ dateField "date" "%B %e, %Y"
+          , defaultContext
+          ]
 --------------------------------------------------------------------------------
 postList :: Tags -> ([Item String] -> Compiler [Item String]) -> Compiler String
 postList tags sortFilter = do
@@ -137,6 +165,13 @@ postList tags sortFilter = do
 noteList ::  Compiler String
 noteList = do
   posts   <- loadAll "notes/*"
+  itemTpl <- loadBody "templates/post-item.html"
+  applyTemplateList itemTpl defaultContext posts
+
+--------------------------------------------------------------------------------
+talkList :: Compiler String
+talkList = do
+  posts <- loadAll "talks/*"
   itemTpl <- loadBody "templates/post-item.html"
   applyTemplateList itemTpl defaultContext posts
   
@@ -156,6 +191,10 @@ dateRoute = gsubRoute "posts/" (const "") `composeRoutes`
     replaceChars c | c == '-' || c == '_' = '/'
                    | otherwise = c
 
+--------------------------------------------------------------------------------
+talkRoute :: Routes
+talkRoute = gsubRoute  "[0-9]{4}-[0-9]{2}-[0-9]{2}-" (const "") `composeRoutes`
+            niceRoute
 --------------------------------------------------------------------------------
 niceRoute :: Routes
 niceRoute = customRoute createIndexRoute
