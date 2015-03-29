@@ -87,14 +87,14 @@ main = hakyllWith config $ do
   create ["talks.html"] $ do
     route niceRoute
     compile $ do
-      let talkCtx =
-            field "talks" (const talkList) `mappend`
-            constField "title" "Talks"     `mappend`
+      let talksCtx =
+            field "talks" (\_ -> talkList recentFirst) `mappend`
+            constField "title" "Talks"                 `mappend`
             defaultContext
 
       makeItem ""
-        >>= loadAndApplyTemplate "templates/talks.html" talkCtx
-        >>= loadAndApplyTemplate "templates/default.html" talkCtx
+        >>= loadAndApplyTemplate "templates/talks.html" talksCtx
+        >>= loadAndApplyTemplate "templates/default.html" talksCtx
         >>= removeIndexHtml
 
   create ["atom.xml"] $ do
@@ -169,11 +169,11 @@ noteList = do
   applyTemplateList itemTpl defaultContext posts
 
 --------------------------------------------------------------------------------
-talkList :: Compiler String
-talkList = do
-  posts <- loadAll "talks/*"
+talkList ::  ([Item String] -> Compiler [Item String]) -> Compiler String
+talkList sortFilter = do
+  talks   <- sortFilter =<< loadAll "talks/*"
   itemTpl <- loadBody "templates/post-item.html"
-  applyTemplateList itemTpl defaultContext posts
+  applyTemplateList itemTpl defaultContext talks
   
 --------------------------------------------------------------------------------
 -- | Returns a list of post bodies
