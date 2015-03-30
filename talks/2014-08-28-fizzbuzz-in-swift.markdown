@@ -24,4 +24,6 @@ A zip file containing the slides and the playground is available here:
 
 ### Video
 
-- [available on Vimeo](http://vimeo.com/105440181)
+The video of the talk can be seen at:
+
+- [Vimeo](http://vimeo.com/105440181)
