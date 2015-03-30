@@ -1,7 +1,6 @@
 ---
 title: FizzBuzz In Swift
-description: My NSLondon Talk about various approaches to the FizzBuzz problem
-in Swift.
+description: My NSLondon Talk about various approaches to the FizzBuzz problem in Swift.
 ---
 
 ### Summary
@@ -11,10 +10,14 @@ plus some thoughts on the new Language. My first mention in [iOS Dev Weekly](htt
 
 ### Slides
 
-- The slides as a PDF file can be downloaded from [http://downloads.abizern.org/FizzBuzz/FizzBuzzSwift.pdf](http://downloads.abizern.org/FizzBuzz/FizzBuzzSwift.pdf)
+- The slides as a PDF file can be downloaded from
+[http://downloads.abizern.org/FizzBuzz/FizzBuzzerry.pdf](http://downloads.abizern.org/FizzBuzz/FizzBuzzerry.pdf).
+- You can see the slides on [SpeakerDeck](https://speakerdeck.com/abizern/fizzbuzz-in-swift-a-talk-with-3-codas).
 
 
-### Playground
+### Combined Download
+
+A zip file containing the slides and the playground is available here:
 
 - [http://downloads.abizern.org/FizzBuzzery.zip](http://downloads.abizern.org/FizzBuzzery.zip)
 
