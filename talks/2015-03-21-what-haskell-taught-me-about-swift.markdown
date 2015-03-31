@@ -10,5 +10,9 @@ about a couple of things that knowing Haskell has helped me when writing Swift.
 
 ### Slides
 
-- [http://downloads.abizern.org/WhatHaskellTaughtMeAboutSwift.pdf](http://downloads.abizern.org/WhatHaskellTaughtMeAboutSwift.pdf)
+
+- Download the PDF directly from
+[http://downloads.abizern.org/WhatHaskellTaughtMeAboutSwift.pdf](http://downloads.abizern.org/WhatHaskellTaughtMeAboutSwift.pdf)
+- View the slides on [SpeakerDeck](https://speakerdeck.com/abizern/what-haskell-taught-me-about-writing-swift)
+
 
