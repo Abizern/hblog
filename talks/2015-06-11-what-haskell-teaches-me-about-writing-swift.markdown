@@ -17,7 +17,6 @@ writing Swift code.
 - The
   [PDF Slides](http://downloads.abizern.org/WhatHaskellTaughtMeAboutSwift.pdf)
   can be downloaded directly.
-
 - View the slides on [SpeakerDeck](https://speakerdeck.com/abizern/what-haskell-teaches-me-about-writing-swift)
 
 ### Video
