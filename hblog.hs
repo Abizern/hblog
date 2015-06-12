@@ -1,7 +1,9 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE FlexibleContexts #-}
+
 import Hakyll
-import Data.Monoid ((<>), mconcat, mappend)
+import Data.Monoid ((<>))
 import Data.List (isInfixOf)
 import System.FilePath.Posix  (takeBaseName,takeDirectory,(</>),splitFileName)
 import Text.Pandoc
