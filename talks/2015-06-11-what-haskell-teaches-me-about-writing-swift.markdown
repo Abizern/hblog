@@ -21,7 +21,7 @@ writing Swift code.
 
 ### Video
 
-- Coming soon!
+- Available on the [Realm Altconf site](https://realm.io/news/altconf-abizer-nasir-what-haskell-teaches-me-about-swift/)
 
 
 ### References
