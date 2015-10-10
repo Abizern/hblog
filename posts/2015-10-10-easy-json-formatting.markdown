@@ -63,7 +63,7 @@ You can see a gif of this in action at this
 I'm linking to this so there isn't a constantly repeating animation while you
 read this.
 
-Of coures, if you are using Emacs, you don't want to be grabbing the mouse to
+Of course, if you are using Emacs, you don't want to be grabbing the mouse to
 get to the action, here's a lisp function I use to format JSON in place:
 
 ```commonlisp
