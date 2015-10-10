@@ -39,6 +39,10 @@ Rather than just passing an object or a value, the function can now take an
 expression for the first parameter. That way, the expression is only evaluated
 if the function body runs. Laziness is a virtue.
 
+**Update Oct 8, 2015**
+
+Changed to support Swift 2.
+
 Thanks to [rob_rix](https://twitter.com/rob_rix) and
 [jl_hfl](https://twitter.com/jl_hfl) for the suggestion.
 
