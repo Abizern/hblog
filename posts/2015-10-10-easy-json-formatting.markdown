@@ -75,5 +75,6 @@ get to the action, here's a lisp function I use to format JSON in place:
 
 ```
 
-**Edit** Thanks to [@chrisridd](https://twitter.com/chrisridd) for pointing out
-  that I could use `json_pp`.
+**Edit**
+
+Thanks to [Chris Ridd](https://twitter.com/chrisridd) for pointing out that I could use `json_pp`.
