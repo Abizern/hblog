@@ -18,14 +18,14 @@ From the Library, select the "Run Shell Script" action and drag it to the right.
 In the action box type:
 
 ```
-python -m json.tool | pbcopy
+json_pp | pbcopy
 ```
 
 ![](http://images.abizern.org.s3.amazonaws.com/2015/10/JSONPrettyPrint.png)
 
-This is what actually does the formatting. Python comes with OS X as does
-json.tool. This runs the selected text through the tool and puts the result in
-the pasteboard. You can paste your formatted output wherever you like.
+This is what actually does the formatting. `json_pp` comes with OS X. This
+runs the selected text through the tool and puts the result in the
+pasteboard.You can paste your formatted output wherever you like.
 
 Save the action with a name - I've called mine _JSON Pretty Print_. You should
 see the new service installed under `~/Library/Services`
@@ -35,7 +35,7 @@ replaces the selected text with the result. Create another service as before
 except that the action doesn't put the results on the pasteboard.
 
 ```
-python -m json.tool
+json_pp
 ```
 
 ![](http://images.abizern.org.s3.amazonaws.com/2015/10/JSONPrettyPrintInPlace.png)
@@ -75,3 +75,5 @@ get to the action, here's a lisp function I use to format JSON in place:
 
 ```
 
+**Edit** Thanks to [@chrisridd](https://twitter.com/chrisridd) for pointing out
+  that I could use `json_pp`.
