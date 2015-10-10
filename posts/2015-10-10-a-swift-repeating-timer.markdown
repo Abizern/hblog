@@ -19,7 +19,7 @@ for efficient interaction with the underlying system. One such source type is
 `DISPATCH_SOURCE_TYPE_TIMER`. So here as a Swift function that creates and
 starts such a timer.
 
-<script src="https://gist.github.com/Abizern/a81f31a75e1ad98ff80d.js"></script>
+<script src="https://gist.github.com/Abizern/cf26af397ebe66284002.js"></script>
 
 Since I'm passing in `NSTimeInterval`s this is probably best used for short
 lived timers, but it extracts a lot of the C boilerplate that is needed to
