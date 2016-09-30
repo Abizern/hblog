@@ -7,55 +7,46 @@ description: iOS and OS X developer in London. But really, I'm just this guy, yo
 
 ![Avatars](/images/avatars.jpg)
 
-I am a freelance OS X and iOS developer based in London. I use Xcode, Git and
-Emacs. I have a collection of fountain pens, I ride a fixed wheel bike, enjoy
-scuba diving and occasionally I'll strum my guitar.
+I am a freelance and iOS and macOS developer based in London. I use Xcode, Git and Emacs. I have a collection of
+fountain pens, I ride a fixed wheel bike, enjoy scuba diving and occasionally I'll strum my guitar.
 
-You can find me online, mostly with the username `abizern`, and the avatar image
-that I use almost everywhere is based on this photograph of me. A bit old, and I
-should really have had a shave, but it's me.
+You can find me online, mostly with the username `abizern`, and the avatar image that I use almost everywhere is based
+on this photograph of me. A bit old, and I should really have had a shave, but it's me.
 
 
-My DVCS of choice is [Git](http://git-scm.com "Main Git site"), and I
-intermittently blog about it at [365Git](http://365git.tumblr.com). Although I
-much prefer talking about it, and most of my speaking history is on this
-subject.
+My DVCS of choice is [Git](http://git-scm.com "Main Git site"), and I intermittently blog about it
+at [365Git](http://365git.tumblr.com). Although I much prefer talking about it, and most of my speaking history used to
+be on this subject, but lately I've been able to speak on a variety of other subjects around developing for Apple's platforms.
 
-I type using the Dvorak keyboard layout - but leave the actual keyboard in the
-QWERTY layout. It stops me looking at the keyboard. It took a good few months
-before I was able to type properly, but I'm glad I did it. I only wish iOS
-devices had the Dvorak option.
+I type using the Dvorak keyboard layout - but leave the actual keyboard in the QWERTY layout. It stops me looking at the
+keyboard. It took a good few months before I was able to type properly, but I'm glad I did it. I only wish iOS devices
+had the Dvorak option.
 
-I organise the monthly [NSCoder Night London](http://nscodernightlondon.com
-"NSCoder Night London") meetings where Cocoa develepers can get together to
-share some knowledge, fix a some bugs and have a litle downtime.
+I organise the monthly [NSCoder Night London](http://nscodernightlondon.com "NSCoder Night London") meetings where Cocoa
+develepers can get together to share some knowledge, fix a some bugs and have a litle downtime.
 
 ### Site Comments
 
-There are no comments on this site. Rather - there are no unmoderated comments
-on this site. I used to have a Wordpress blog with comments, but the signal got
-drowned out in the noise. Feel free to <a
+There are no comments on this site. Rather - there are no unmoderated comments on this site. I used to have a Wordpress
+blog with comments, but the signal got drowned out in the noise. Feel free to <a
 href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#98;&#105;&#122;&#101;&#114;&#110;&#64;&#97;&#98;&#105;&#122;&#101;&#114;&#110;&#46;&#111;&#114;&#103;'>&#101;&#109;&#97;&#105;&#108;</a>
 me instead; I might even edit my posts to take account of feedback.
 
 ## Availability
-I'm not currently available for contract work until at least April 2015, but please feel free to get in touch by
-<a
+I'm not currently available for contract work until at least April 2016, but please feel free to get in touch by <a
 href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#98;&#105;&#122;&#101;&#114;&#110;&#64;&#97;&#98;&#105;&#122;&#101;&#114;&#110;&#46;&#111;&#114;&#103;'>&#101;&#109;&#97;&#105;&#108;</a>.
 
 
 ## Links
 
-- Most of the time you can get me on [Twitter](http://twitter.com/#!/abizern
-  "Twitter page").
+- Most of the time you can get me on [Twitter](http://twitter.com/#!/abizern "Twitter page").
 - You can see my code on [Github](http://git.io/abizern "GitHub page").
 - I'm active on [Stack Overflow](http://stackoverflow.com/users/41116/abizern "Stack Overflow").
-- I'm on [Google+](https://plus.google.com/114978774242418167340/posts "Google+
-  page"), but it's mostly tumbleweed.
-- No, I don't have a Facebook page.
+- I'm on [Google+](https://plus.google.com/114978774242418167340/posts "Google+ page"), but it's mostly tumbleweed.
+- No, I don't have a Facebook page. It started off as a little exercise to see how long I'd manage without one, and now
+  it's become a bit of a thing for me not to have one.
 - Have a look at my pictures on [Flickr](http://www.flickr.com/people/stompy/ "Flickr page").
-- Do you want to connect with me at
-  [LinkedIn](http://www.linkedin.com/e/fpf/82724921 "LinkedIn")?
+- Do you want to connect with me at [LinkedIn](https://uk.linkedin.com/in/abizern "LinkedIn")?
 - Have a look at my posts about Git over at [365Git](http://365git.tumblr.com)
 
 ## Colophon
@@ -66,8 +57,6 @@ version 4. It is hosted on Github, where you can also see the
 
 The layout is a provided by [Pure CSS](http://purecss.io).
 
-The colour scheme is taken from the
-[Solarized](http://ethanschoonover.com/solarized) light palette.
+The colour scheme is taken from the [Solarized](http://ethanschoonover.com/solarized) light palette.
 
-The posts are invariably written using Emacs. And yes, the main font is
-Helvetica; deal with it.
+The posts are invariably written using Emacs. And yes, the main font is Helvetica; deal with it.
