@@ -1,6 +1,6 @@
 ---
-title: Core Data: It's Not Dead Yet
-description: My FrenchKit Conference talk about Core Data
+title: Core Data It's Not Dead Yet
+description: My FrenchKit Conference talk about Core Data. September 2016.
 ---
 
 ### Summary

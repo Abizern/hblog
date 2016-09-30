@@ -1,6 +1,6 @@
 ---
 title: Dependency Management With Carthage
-description: My talk at Cocoaheads Stockholm about the Carthage dependency manager.
+description: My talk at Cocoaheads Stockholm about the Carthage dependency manager. May 2016.
 ---
 
 ### Summary

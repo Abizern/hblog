@@ -1,6 +1,6 @@
 ---
 title: Being Imperfect In A Perfect World
-description: NSBarcelona talk on Patterns and their uses.
+description: NSBarcelona talk on Patterns and their uses. September 2016.
 ---
 
 ### Summary

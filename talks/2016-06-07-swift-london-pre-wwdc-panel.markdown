@@ -1,6 +1,6 @@
 ---
 title: Swift London Pre-WWDC Panel
-description: Swift London Pre-WWDC Panel
+description: Swift London Pre-WWDC Panel. June 2016.
 ---
 
 ### Summary
