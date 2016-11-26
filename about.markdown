@@ -33,7 +33,7 @@ href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#98;&#105;&#122;&#101;&#114;
 me instead; I might even edit my posts to take account of feedback.
 
 ## Availability
-I'm not currently available for contract work until at least April 2016, but please feel free to get in touch by <a
+I'm not currently available for contract work until at least March 2017, but please feel free to get in touch by <a
 href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#98;&#105;&#122;&#101;&#114;&#110;&#64;&#97;&#98;&#105;&#122;&#101;&#114;&#110;&#46;&#111;&#114;&#103;'>&#101;&#109;&#97;&#105;&#108;</a>.
 
 
@@ -48,6 +48,12 @@ href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#98;&#105;&#122;&#101;&#114;
 - Have a look at my pictures on [Flickr](http://www.flickr.com/people/stompy/ "Flickr page").
 - Do you want to connect with me at [LinkedIn](https://uk.linkedin.com/in/abizern "LinkedIn")?
 - Have a look at my posts about Git over at [365Git](http://365git.tumblr.com)
+
+## GPG
+
+Key ID: 7E2C07666BEEED1C
+Key Signature: CF1C 8FE5 A508 0E70 4BCB  97DE 7E2C 0766 6BEE ED1C
+Key: Available on a keyserver near you or you can [download it](http://abizern.org/GPGKey.asc) from here.
 
 ## Colophon
 
