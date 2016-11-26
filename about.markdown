@@ -52,7 +52,9 @@ href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#98;&#105;&#122;&#101;&#114;
 ## GPG
 
 Key ID: 7E2C07666BEEED1C
+
 Key Signature: CF1C 8FE5 A508 0E70 4BCB  97DE 7E2C 0766 6BEE ED1C
+
 Key: Available on a keyserver near you or you can [download it](http://abizern.org/GPGKey.asc) from here.
 
 ## Colophon
