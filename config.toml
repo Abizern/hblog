@@ -1,3 +1,85 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "http://abizern.org/"
+languageCode = "en-GB"
+title = "Abizern.org"
+
+theme = "minimo"
+
+googleAnalytics = "UA-5015208-5"
+
+Paginate = 5
+preserveTaxonomyNames = true
+
+enableRobotsTXT = true # generate robots.txt
+
+# Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
+pygmentsCodefences = true
+
+# Missing translations will default to this content language
+defaultContentLanguage = "en"
+
+[params.info]
+description = "Opinions and £1 will get me a small coffee."
+title404 = "Oops! Nothing to see here."
+
+[params.assets]
+favicon = "favicon.ico"
+customCSS = ["css/custom.css"]
+customJS = ["js/custom.js"]
+gopher = "" # used in 404 template ( Generator: https://gopherize.me )
+
+[params.copyright]
+prefix = ""
+holder = "Abizer Nasir"
+startYear = "2017"
+suffix = ""
+
+[params.settings]
+# date & time format: https://golang.org/pkg/time/
+dateFormat = "January 2, 2006"
+listDateFormat = "2006, Jan 02"
+hideEntryNavigation = ["page"] # boolean / array of sections
+hideSocialMenu = false
+showReadingTime = true
+
+[params.opengraph.twitter]
+page = "" # Twitter page username
+
+[params.seo]
+# Title Separator: - – — · • * ⋆ | ~ « » < >
+titleSeparator = "•"
+
+[params.social]
+email = "abizern@abizern.org"
+github = "Abizern"
+instagram = "abizern"
+linkedin = "abizern"
+twitter = "abizern"
+
+[params.social.config]
+platforms = ["twitter", "github", "email", "linkedin", "instagram"]
+
+[taxonomies]
+tag = "tags"
+
+[permalinks]
+posts = "/:year/:title/"
+pages = "/:slug/"
+notes = "/:slug/"
+
+
+[[menu.main]]
+name = "Home"
+weight = -10
+identifier = "home"
+url = "/"
+
+
+[blackfriday]
+hrefTargetBlank = true
+
+[languages]
+# edit this block for your own language
+[languages.en]
+lang = "en"
+languageName = "English"
+weight = 1
