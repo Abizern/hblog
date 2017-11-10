@@ -1,6 +1,9 @@
 ---
-title: Some Tips for Lazy Xcoders
-tags: programming, xcode
+title: "Some Tips for Lazy Xcoders"
+description: "Handy Xcode tips."
+date: "2009-11-11"
+tags: [ "programming", "xcode" ]
+aliases: [ '/2009/11/11/some-tips-for-lazy-xcoders/' ]
 ---
 
 We all know what we should be doing when writing code. Each methodology you

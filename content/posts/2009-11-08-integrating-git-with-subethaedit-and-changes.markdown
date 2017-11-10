@@ -1,7 +1,9 @@
 ---
-title: Integrating Git with SubEthaEdit and Changes.app
-description: Adding an external diff app to SubEthaEdit
-tags: osx, git
+title: "Integrating Git with SubEthaEdit and Changes.app"
+description: "Adding an external diff app to SubEthaEdit."
+date: "2009-11-09"
+tags: ["subethaedit", "git"]
+aliases: [ "/2009/11/08/integrating-git-with-subethaedit-and-changes/" ]
 ---
 
 A while ago, I read a

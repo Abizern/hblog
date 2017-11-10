@@ -1,7 +1,9 @@
 ---
-title: NSCoder Night London - Report
-description: Report on the first NSCoder Night in London
-tags: nscodernight
+title: "NSCoder Night London - Report"
+description: "Report on the first NSCoder Night in London."
+date: "2009-09-25"
+tags: [ "nscodernight" ]
+aliases: [ "/2009/09/25/nscoder-night-london-report/" ]
 ---
 
 [![NSCoder Night](http://farm3.static.flickr.com/2671/3952499655_33ed3b7b29.jpg)](http://www.flickr.com/photos/15729248@N00/3952499655)
