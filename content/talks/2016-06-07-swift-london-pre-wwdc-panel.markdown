@@ -1,6 +1,9 @@
 ---
-title: Swift London Pre-WWDC Panel
-description: Swift London Pre-WWDC Panel. June 2016.
+title: "Swift London Pre-WWDC Panel"
+description: "Swift London Pre-WWDC Panel. June 2016."
+date: "2016-06-07"
+tags: [ "swift", "swiftlondon", "wwdc" ]
+aliases: [ "/talks/swift-london-pre-wwdc-panel/" ]
 ---
 
 ### Summary

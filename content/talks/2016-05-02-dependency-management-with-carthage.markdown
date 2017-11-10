@@ -1,6 +1,9 @@
 ---
-title: Dependency Management With Carthage
-description: My talk at Cocoaheads Stockholm about the Carthage dependency manager. May 2016.
+title: "Dependency Management With Carthage"
+description: "My talk at Cocoaheads Stockholm about the Carthage dependency manager. May 2016."
+date: "2016-05-02"
+tags: [ "carthage", "dependecies", "cocoaheads", "xcode" ]
+aliases: [ "/talks/dependency-management-with-carthage/" ]
 ---
 
 ### Summary
