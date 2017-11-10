@@ -63,7 +63,7 @@ tag = "tags"
 
 [permalinks]
 posts = "/:year/:title/"
-pages = "/:slug/"
+talks = "/talks/:year/:title/"
 notes = "/:slug/"
 
 
