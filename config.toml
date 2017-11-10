@@ -30,7 +30,7 @@ gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 [params.copyright]
 prefix = ""
 holder = "Abizer Nasir"
-startYear = "2017"
+startYear = "2009"
 suffix = ""
 
 [params.settings]
@@ -64,7 +64,7 @@ tag = "tags"
 [permalinks]
 posts = "/:year/:title/"
 talks = "/talks/:year/:title/"
-notes = "/:slug/"
+notes = "/notes/:title/"
 
 
 [[menu.main]]

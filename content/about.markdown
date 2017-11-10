@@ -1,6 +1,6 @@
 ---
-title: About me
-description: iOS and OS X developer in London. But really, I'm just this guy, you know?
+title: About Me
+description: iOS and macOS developer in London. But really, I'm just this guy, you know?
 ---
 
 ## About
@@ -33,7 +33,7 @@ href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#98;&#105;&#122;&#101;&#114;
 me instead; I might even edit my posts to take account of feedback.
 
 ## Availability
-I'm not currently available for contract work until at least March 2017, but please feel free to get in touch by <a
+I'm not currently available for contract work until at least April 2018, but please feel free to get in touch by <a
 href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#98;&#105;&#122;&#101;&#114;&#110;&#64;&#97;&#98;&#105;&#122;&#101;&#114;&#110;&#46;&#111;&#114;&#103;'>&#101;&#109;&#97;&#105;&#108;</a>.
 
 
