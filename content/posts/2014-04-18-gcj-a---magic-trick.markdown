@@ -1,7 +1,9 @@
 ---
-title: GCJ A - Magic Trick
-tags: haskell, gcj
-description: Solution to to Google Code Jam Magic Trick
+title: "GCJ A - Magic Trick"
+description: "Solution to to Google Code Jam Magic Trick."
+date: "2014-04-18"
+tags: ["haskell", "gcj"]
+aliases: [ "/2014/04/18/gcj-a---magic-trick/" ]
 ---
 
 I got through the qualification round for Google Code Jam 2014. I usually manage

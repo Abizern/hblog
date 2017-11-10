@@ -1,7 +1,9 @@
 ---
-title: GCJ B - Cookie Clicker Alpha
-tags: haskell, gcj
-description: 
+title: "GCJ B - Cookie Clicker Alpha"
+description: "Solution to a Google Code Jam Problem."
+date: "2014-04-18"
+tags: ["haskell", "gcj"]
+aliases: [ "/2014/04/18/gcj-b---cookie-clicker-alpha/" ]
 ---
 
 Another problem from This year's Google Code Jam.

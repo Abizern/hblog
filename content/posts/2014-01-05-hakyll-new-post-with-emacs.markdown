@@ -1,7 +1,10 @@
 ---
-title: Hakyll New Post With Emacs
-tags: meta, hakyll, emacs, lisp
-description: Create a new hakyll page from within Emacs.
+title: "Hakyll New Post With Emacs"
+description: "Create a new hakyll page from within Emacs."
+date: "2014-01-05"
+tags: ["meta", "hakyll", "emacs", "lisp"]
+aliases: [ "/2014/01/05/hakyll-new-post-with-emacs/" ]
+
 ---
 
 When this blog was created using Octopress, a new post could be created by

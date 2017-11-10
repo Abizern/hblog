@@ -1,7 +1,9 @@
 ---
-title: Fizz Buzz in Swift
-tags: swift, video, presentations
-description: Resources for my NSLondon talk on Fizz Buzz in Swift
+title: "Fizz Buzz in Swift"
+description: "Resources for my NSLondon talk on Fizz Buzz in Swift."
+date: "2014-12-13"
+tags: ["swift", "video", "presentations"]
+aliases: [ "/2014/12/13/fizz-buzz-in-swift/" ]
 ---
 
 In August 2014 I gave a talk at NSLondon about various approaches to solving
