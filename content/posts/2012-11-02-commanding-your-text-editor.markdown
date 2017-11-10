@@ -1,7 +1,9 @@
 ---
-title: Commanding Your Text Editor
-description: A link to a few tips of using your editor effectively
-tags: emacs, editing
+title: "Commanding Your Text Editor"
+description: "A link to a few tips of using your editor effectively."
+date: "2012-11-02"
+tags: ["emacs", "editing"]
+aliases: [ "/2012/11/02/commanding-your-text-editor/" ]
 ---
 
 There's a recent post up on the PeepCode Blog about

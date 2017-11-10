@@ -1,7 +1,9 @@
 ---
-title: Simple Localisation Testing
-description: You don't need to change the device settings
-tags: osx, ios
+title: "Simple Localisation Testing"
+description: "You don't need to change the device settings."
+date: "2012-03-18"
+tags: ["macos", "ios", "localisation", "testing", "xcode"]
+aliases: [ "/2012/03/18/simple-localisation-testing/" ]
 ---
 
 Sometimes you want to test your localisations but you don't want to go through the hassle of

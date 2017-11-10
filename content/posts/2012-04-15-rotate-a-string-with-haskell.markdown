@@ -1,7 +1,9 @@
 ---
-title: Rotate A String with Haskell
-description: There's always room to do better
-tags: haskell
+title: "Rotate A String with Haskell"
+description: "There's always room to do better."
+date: "2012-04-15"
+tags: ["haskell"]
+aliases: [ "/2012/04/15/rotate-a-string-with-haskell/" ]
 ---
 
 I qualified for [Google Code Jam](http://code.google.com/codejam) this year

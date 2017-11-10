@@ -1,7 +1,9 @@
 ---
-title: London CoderDojo
-description: My thoughts on mentoring
-tags: programming
+title: "London CoderDojo"
+description: "My thoughts on mentoring."
+date: "2012-04-15"
+tags: ["programming"]
+aliases: [ "/2012/04/15/london-coderdojo/" ]
 ---
 
 I mentored at [CoderDojo London](http://zen.coderdojo.com/dojo/74) this

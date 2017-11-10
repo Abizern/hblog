@@ -1,7 +1,9 @@
 ---
-title: Book Stack June 2012
-description: My reading backlog
-tags: personal, books
+title: "Book Stack June 2012"
+description: "My reading backlog."
+date: "2012-06-05"
+tags: ["personal", "books"]
+aliases: [ "/2012/06/05/book-stack-june-2012/" ]
 ---
 
 I seem to have accrued a stack of fiction that I haven't got around to

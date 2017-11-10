@@ -1,7 +1,9 @@
 ---
-title: Hello Octopress
-description: Obligatory post announcing the move from Wordpress to Octopress
-tags: meta
+title: "Hello Octopress"
+description: "Obligatory post announcing the move from Wordpress to Octopress."
+date: "2012-13-17"
+tags: [ "meta", "octopress" ]
+aliases: [ "/2012/03/17/hello-octopress/" ]
 ---
 
 This is the obligatory post announcing that I've moved this site off Wordpress

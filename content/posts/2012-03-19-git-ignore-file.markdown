@@ -1,7 +1,9 @@
 ---
-title: Git Ignore file
-description: My recommended .gitignore
-tags: git
+title: "Git Ignore file"
+description: "My recommended .gitignore file."
+date: "2012-03-19"
+tags: ["git"]
+aliases: [ "/2012/03/19/git-ignore-file/" ]
 ---
 
 A while ago I answered a couple of questions on Stack Overflow using my

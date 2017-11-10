@@ -1,6 +1,9 @@
 ---
-title: A Reason To Learn Lisp
-tags: emacs
+title: "A Reason To Learn Lisp"
+description: "This video might persuade you."
+date: "2012-11-01"
+tags: ["emacs", "lisp"]
+aliases: [ "/2012/11/01/a-reason-to-learn-lisp/" ]
 ---
 
 A short video from a live demo of Emacs from Web Rebels in Oslo 2012.

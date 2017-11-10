@@ -1,7 +1,9 @@
 ---
-title: An Improved Reverse Words Script
-description: There's always room to do better
-tags: haskell
+title: "An Improved Reverse Words Script"
+description: "There's always room to do better."
+date: "2012-10-31"
+tags: ["haskell"]
+aliases: [ "/2012/10/31/an-improved-reverse-words-script/" ]
 ---
 
 About 6 months ago I posted
