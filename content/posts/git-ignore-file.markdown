@@ -2,7 +2,7 @@
 title: "Git Ignore file"
 description: "My recommended .gitignore file."
 date: "2012-03-19"
-tags: ["git"]
+tags: ["Git"]
 aliases: [ "/2012/03/19/git-ignore-file/" ]
 ---
 

@@ -2,7 +2,7 @@
 title: "DVCS at LiDG"
 description: "I gave a short talk to the London iOS Developer Group, here are the slides."
 date: "2010-10-08"
-tags: ["git", "dvcs"]
+tags: ["Git"]
 aliases: [ "/2010/10/08/dvcs-at-lidg/" ]
 ---
 

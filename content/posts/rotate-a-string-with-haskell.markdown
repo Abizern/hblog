@@ -2,7 +2,7 @@
 title: "Rotate A String with Haskell"
 description: "There's always room to do better."
 date: "2012-04-15"
-tags: ["haskell"]
+tags: ["Haskell"]
 aliases: [ "/2012/04/15/rotate-a-string-with-haskell/" ]
 ---
 

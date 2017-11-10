@@ -2,7 +2,7 @@
 title: "Hello Hakyll"
 description: "Obligatory post announcing the move from Octopress to Hakyll."
 date: "2013-12-26"
-tags: ["meta", "hakyll"]
+tags: ["Meta", "Hakyll"]
 aliases: [ "/2013/12/26/hello-hakyll/" ]
 ---
 

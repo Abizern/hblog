@@ -2,7 +2,7 @@
 title: "Commanding Your Text Editor"
 description: "A link to a few tips of using your editor effectively."
 date: "2012-11-02"
-tags: ["emacs", "editing"]
+tags: ["Emacs", "Editing"]
 aliases: [ "/2012/11/02/commanding-your-text-editor/" ]
 ---
 

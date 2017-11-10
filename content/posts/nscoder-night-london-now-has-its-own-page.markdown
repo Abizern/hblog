@@ -2,7 +2,7 @@
 title: "NSCoder Night London Now Has It's Own Page"
 description: "A new website for NSCoder Night London."
 date: "2011-04-14"
-tags: ["nscodernight"]
+tags: ["NSCoderNight"]
 aliases: [ "/2011/04/14/nscoder-night-london-now-has-its-own-page/" ]
 ---
 

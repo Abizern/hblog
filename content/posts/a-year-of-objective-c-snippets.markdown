@@ -2,7 +2,7 @@
 title: "A Year Of Objective-C Snippets"
 description: "A Tumblr of daily tips"
 date: "2010-02-27"
-tags: ["objc"]
+tags: ["Objective-C"]
 aliases: [ "/2010/02/27/a-year-of-objective-c-snippets/" ]
 ---
 

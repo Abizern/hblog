@@ -2,7 +2,7 @@
 title: "A Reason To Learn Lisp"
 description: "This video might persuade you."
 date: "2012-11-01"
-tags: ["emacs", "lisp"]
+tags: ["Emacs", "Lisp"]
 aliases: [ "/2012/11/01/a-reason-to-learn-lisp/" ]
 ---
 

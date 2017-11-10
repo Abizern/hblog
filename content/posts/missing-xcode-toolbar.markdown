@@ -2,7 +2,7 @@
 title: "Missing Xcode Toolbar"
 description: "How to restore it."
 date: "2013-01-29"
-tags: ["ios", "macos", "xcode"]
+tags: ["iOS", "macOS", "Xcode"]
 aliases: [ "/2013/01/29/missing-xcode-toolbar/" ]
 ---
 

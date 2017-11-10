@@ -2,7 +2,7 @@
 title: "Being Imperfect In A Perfect World"
 description: "NSBarcelona talk on Patterns and their uses. September 2016."
 date: "2016-09-21"
-tags: [ "nsbarcelona", "swift", "app-architecture", "mvc", "mvvm", "viper", "rxswift" ]
+tags: [ "NSBarcelona", "Swift", "Architecture", "MVC", "MVVM", "VIPER", "RxSwift" ]
 aliases: [ "/talks/being-imperfect-in-a-perfect-world/" ]
 ---
 

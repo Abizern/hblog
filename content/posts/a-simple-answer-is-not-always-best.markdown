@@ -2,7 +2,7 @@
 title: "A Simple Answer Is Not Always Best"
 description: "Sometimes it's better to answer the actual, unspoken question."
 date: "2010-01-08"
-tags: ["programming"]
+tags: ["Programming"]
 aliases: [ "2010/01/08/a-simple-answer-is-not-always-best/" ]
 ---
 

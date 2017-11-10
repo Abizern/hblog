@@ -2,7 +2,7 @@
 title: "FizzBuzz In Swift"
 description: "My NSLondon Talk about various approaches to the FizzBuzz problem in Swift."
 date: "2014-08-28"
-tags: [ "swift", "fizz-buzz", "nslondon" ]
+tags: [ "Swift", "Fizz-Buzz", "NSLondon" ]
 aliases: [ "/talks/fizzbuzz-in-swift/" ]
 type: "talk"
 ---

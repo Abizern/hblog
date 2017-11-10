@@ -2,7 +2,7 @@
 title: "UUID Strings with Cocoa"
 description: "This used to be a thing until we got the NSUUID class with iOS 6 and macOS 10.8"
 date: "2012-10-25"
-tags: ["macos", "ios", "uuid", "objc"]
+tags: ["macOS", "iOS", "UUID", "Objective-C"]
 aliases: [ "/2012/10/25/uuid-strings-with-cocoa/" ]
 ---
 

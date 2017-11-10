@@ -2,7 +2,7 @@
 title: "Blackjack and the Python Dojo"
 description: "A coding dojo is a safe place to deliberately practice and develop your coding skills."
 date: "2010-10-08"
-tags: ["python", "dojo"]
+tags: ["Python", "Dojo"]
 aliases: [ "/2010/10/08/blackjack-and-the-python-dojo/" ]
 ---
 

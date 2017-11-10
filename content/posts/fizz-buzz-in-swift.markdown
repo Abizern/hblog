@@ -2,7 +2,7 @@
 title: "Fizz Buzz in Swift"
 description: "Resources for my NSLondon talk on Fizz Buzz in Swift."
 date: "2014-12-13"
-tags: ["swift", "video", "presentations"]
+tags: ["Swift"]
 aliases: [ "/2014/12/13/fizz-buzz-in-swift/" ]
 ---
 

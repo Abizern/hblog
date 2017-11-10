@@ -1,7 +1,7 @@
 ---
 title: "Emacs Notes"
 description: "Keyboard shortcuts and usage notes."
-tags: [ "emacs"]
+tags: [ "Emacs"]
 aliases: [ "/emacs-notes/" ]
 type: "note"
 ---

@@ -2,7 +2,7 @@
 title: "Adding 3rd Party Code To Your Project"
 description: "Talk from iOSCon 2014, London about using Git or CocoaPods to add dependencies to an Xcode project"
 date: "2014-05-15"
-tags: ["git", "cocoapods", "submodules", "ioscon", "xcode"]
+tags: ["Git", "CocoaPods", "Submodules", "iosCon", "Xcode"]
 aliases: [ "/talks/adding-3rd-party-code-to-your-project/" ]
 type: "talk"
 ---

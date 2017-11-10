@@ -2,7 +2,7 @@
 title: "An Improved Reverse Words Script"
 description: "There's always room to do better."
 date: "2012-10-31"
-tags: ["haskell"]
+tags: ["Haskell"]
 aliases: [ "/2012/10/31/an-improved-reverse-words-script/" ]
 ---
 

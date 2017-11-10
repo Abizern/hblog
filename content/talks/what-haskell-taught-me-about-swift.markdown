@@ -2,7 +2,7 @@
 title: "What Haskell Taught Me About Swift"
 description: "My Swift Summit Talk from March 2015"
 date: "2015-03-21"
-tags: [ "swift", "haskell", "swiftsummit" ]
+tags: [ "Swift", "Haskell", "SwiftSummit" ]
 aliases: [ "/talks/what-haskell-taught-me-about-swift/" ]
 type: "talk"
 ---

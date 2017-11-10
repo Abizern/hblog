@@ -2,7 +2,7 @@
 title: "Setting up for Lisp on OS X"
 description: "This is how I roll, you might choose a different path."
 date: "2013-03-31"
-tags: ["macos", "emacs", "lisp"]
+tags: ["macOS", "Emacs", "Lisp"]
 aliases: [ "/2013/03/31/setting-up-for-lisp-on-os-x/" ]
 ---
 

@@ -2,7 +2,7 @@
 title: "Renaming an Xcode Project"
 description: "How to rename an existing Xcode project."
 date: "2010-03-06"
-tags: ["xcode"]
+tags: ["Xcode"]
 aliases: [ "/2010/03/06/renaming-an-xcode-project/" ]
 ---
 

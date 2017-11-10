@@ -2,7 +2,7 @@
 title: "NSCoder Night London"
 description: "The first NSCoderNight in London"
 date: "2009-09-21"
-tags: [ "nscodernight" ]
+tags: [ "NSCoderNight" ]
 aliases: [ "/2009/09/21/nscoder-night-london/" ]
 ---
 

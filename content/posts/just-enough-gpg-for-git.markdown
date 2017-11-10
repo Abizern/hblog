@@ -2,7 +2,7 @@
 title: "Just Enough GPG for git"
 description: "If all you want to do is to sign and/or verify commits"
 date: "2011-01-17"
-tags: [ "macos", "git", "gpg" ]
+tags: [ "macOS", "Git", "GPG" ]
 aliases: [ "/2011/01/17/just-enough-gpg-for-git/" ]
 ---
 

@@ -2,7 +2,7 @@
 title: "GCJ B - Cookie Clicker Alpha"
 description: "Solution to a Google Code Jam Problem."
 date: "2014-04-18"
-tags: ["haskell", "gcj"]
+tags: ["Haskell", "Google-Code-Jam"]
 aliases: [ "/2014/04/18/gcj-b---cookie-clicker-alpha/" ]
 ---
 

@@ -2,7 +2,7 @@
 title: "Debug Logging In Swift"
 description: "Print strings to the console only when in Debug mode."
 date: "2015-02-01"
-tags: ["swift", "xcode"]
+tags: ["Swift", "Xcode"]
 aliases: [ "/2015/02/01/debug-logging-in-swift/" ]
 ---
 

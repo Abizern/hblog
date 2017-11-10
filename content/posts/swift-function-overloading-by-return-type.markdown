@@ -2,7 +2,7 @@
 title: "Swift Function Overloading By Return Type"
 description: "As Objective-C developers, we often forget that we can overload functions by return type."
 date: "2015-10-11"
-tags: ["swift", "programming"]
+tags: ["Swift"]
 aliases: [ "/2015/10/11/swift-function-overloading-by-return-type/" ]
 ---
 

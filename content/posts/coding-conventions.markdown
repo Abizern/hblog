@@ -2,7 +2,7 @@
 title: "Coding Conventions"
 description: "I've published my coding conventions for Objective-C / Cocoa."
 date: "2012-07-01"
-tags: ["osx", "ios"]
+tags: ["Objecive-C", "Cocoa"]
 aliases: [ "/2012/07/01/coding-conventions/" ]
 ---
 

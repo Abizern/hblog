@@ -2,7 +2,7 @@
 title: "Reverse Words With Haskell"
 description: "A practice problem from Google Code Jam."
 date: "2012-04-09"
-tags: ["haskell", "gcj"]
+tags: ["Haskell", "Google-Code-Jam"]
 aliases: [ "/2012/04/09/reverse-words-with-haskell/" ]
 ---
 

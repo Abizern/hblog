@@ -2,7 +2,7 @@
 title: "Correcting Brace Layout"
 description: "I wrote a Ruby Gem."
 date: "2012-12-30"
-tags: ["ruby", "objc", "xcode"]
+tags: ["Ruby", "Objective-C", "Xcode"]
 aliases: [ "/2012/12/30/correcting-brace-layout/" ]
 ---
 

@@ -2,7 +2,7 @@
 title: "Getting the address of a shortened URL"
 description: "Check a shortened URL before opening it."
 date: "2010-10-16"
-tags: ["url", "terminal"]
+tags: ["URL", "Terminal"]
 aliases: [ "/2010/10/16/getting-the-address-of-a-shortened-url/" ]
 ---
 

@@ -2,7 +2,7 @@
 title: "Git at London Web Standards"
 description: "Announcing my talk at London Web Standards."
 date: "2013-05-30"
-tags: ["git", "presentations"]
+tags: ["Git"]
 aliases: [ "/2013/05/30/git-at-london-web-standards/" ]
 ---
 

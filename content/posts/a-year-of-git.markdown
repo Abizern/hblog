@@ -2,8 +2,8 @@
 title: "A Year of Git"
 description: "A Tumblr of daily tips."
 date: "2010-03-24"
-tags: ["git"]
-aliases: [ "/2010/03/24/a-year-of-git/" ]
+tags: ["Git"]
+Aliases: [ "/2010/03/24/a-year-of-git/" ]
 ---
 
 I've been inspired by Pieter Omvlee of

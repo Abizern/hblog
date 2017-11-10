@@ -2,7 +2,7 @@
 title: "GCJ A - Magic Trick"
 description: "Solution to to Google Code Jam Magic Trick."
 date: "2014-04-18"
-tags: ["haskell", "gcj"]
+tags: ["Haskell", "Google-Code-Jam"]
 aliases: [ "/2014/04/18/gcj-a---magic-trick/" ]
 ---
 

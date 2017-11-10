@@ -2,7 +2,7 @@
 title: "Some Tips for Lazy Xcoders"
 description: "Handy Xcode tips."
 date: "2009-11-11"
-tags: [ "programming", "xcode" ]
+tags: [ "Xcode" ]
 aliases: [ '/2009/11/11/some-tips-for-lazy-xcoders/' ]
 ---
 

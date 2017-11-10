@@ -2,7 +2,7 @@
 title: "Core Data It's Not Dead Yet"
 description: "My FrenchKit Conference talk about Core Data. September 2016."
 date: "2016-09-23"
-tags: [ "coredata", "frenchkit", "swift" ]
+tags: [ "CoreData", "FrenchKit", "Swift" ]
 aliases: [ "/talks/core-data-its-not-dead-yet/" ]
 ---
 

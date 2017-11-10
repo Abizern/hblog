@@ -2,7 +2,7 @@
 title: "On Live Coding"
 description: "Videos of programmers working."
 date: "2012-08-20"
-tags: ["haskell", "ruby", "programming"]
+tags: ["Haskell", "Ruby", "Programming"]
 aliases: [ "/2012/08/20/on-live-coding/" ]
 ---
 

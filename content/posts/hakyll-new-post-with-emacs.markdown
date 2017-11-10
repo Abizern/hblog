@@ -2,7 +2,7 @@
 title: "Hakyll New Post With Emacs"
 description: "Create a new hakyll page from within Emacs."
 date: "2014-01-05"
-tags: ["meta", "hakyll", "emacs", "lisp"]
+tags: ["Meta", "Hakyll", "Emacs", "Lisp"]
 aliases: [ "/2014/01/05/hakyll-new-post-with-emacs/" ]
 
 ---

@@ -2,7 +2,7 @@
 title: "Easy JSON formatting"
 description: "Set up an Automator service for easily pretty formatting JSON."
 date: "2015-10-10"
-tags: ["json", "mac", "programming", "automator"]
+tags: ["JSON", "Mac", "Automator"]
 aliases: [ "/2015/10/10/easy-json-formatting/" ]
 ---
 

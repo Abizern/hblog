@@ -2,7 +2,7 @@
 title: "Simple Localisation Testing"
 description: "You don't need to change the device settings."
 date: "2012-03-18"
-tags: ["macos", "ios", "localisation", "testing", "xcode"]
+tags: ["macOS", "iOS", "Localisation", "Testing", "Xcode"]
 aliases: [ "/2012/03/18/simple-localisation-testing/" ]
 ---
 

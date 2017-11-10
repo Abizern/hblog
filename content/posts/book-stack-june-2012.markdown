@@ -2,7 +2,7 @@
 title: "Book Stack June 2012"
 description: "My reading backlog."
 date: "2012-06-05"
-tags: ["personal", "books"]
+tags: ["Personal", "Books"]
 aliases: [ "/2012/06/05/book-stack-june-2012/" ]
 ---
 

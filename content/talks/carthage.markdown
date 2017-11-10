@@ -2,7 +2,7 @@
 title: "Carthage"
 description: "NSLondon talk about the Carthage Dependency Management System."
 date: "2015-07-30"
-tags: [ "carthage", "dependencies", "xcode", "nslondon" ]
+tags: [ "Carthage", "Dependencies", "Xcode", "NSLondon" ]
 aliases: [ "/talks/carthage/" ]
 ---
 

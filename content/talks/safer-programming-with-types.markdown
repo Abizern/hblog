@@ -2,7 +2,7 @@
 title: "Safer Programming With Types"
 description: "A lightning talk from Swift London Meetup October 2016"
 date: "2016-10-25"
-tags: [ "swift", "swiftlondon", "types" ]
+tags: [ "Swift", "SwiftLondon" ]
 aliases: [ "/talks/safer-programming-with-types/" ]
 ---
 

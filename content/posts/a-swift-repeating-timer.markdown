@@ -2,7 +2,7 @@
 title: "A Swift Repeating Timer"
 description: "A Swift function to create and start a timer dispatch source."
 date: "2015-10-10"
-tags: ["swift"]
+tags: ["Swift"]
 aliases: [ "/2015/10/10/a-swift-repeating-timer/" ]
 
 ---

@@ -2,7 +2,7 @@
 title: "What Haskell Teaches Me About Writing Swift"
 description: "My talk from AltConf, San Francisco, June 2015."
 date: "2015-06-11"
-tags: [ "haskell", "swift", "altconf" ]
+tags: [ "Haskell", "Swift", "AltConf" ]
 aliases: [ "/talks/what-haskell-teaches-me-about-writing-swift/" ]
 ---
 

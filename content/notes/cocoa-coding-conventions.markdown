@@ -1,7 +1,7 @@
 ---
 title: "Cocoa Coding Conventions"
 description: "Consistent code is more readable. These are my choices, feel free to use them or adapt them to your own style."
-tag: [ "cocoa", "code-style", "objc"]
+tag: [ "Cocoa", "Code-Style", "Objective-C"]
 aliases: [ "/cocoa-coding-conventions/" ]
 type: "note"
 ---

@@ -2,7 +2,7 @@
 title: "Staying Flash-free on a MacBook Air"
 description: "You don't need to install it. Really."
 date: "2010-11-21"
-tags: ["technology"]
+tags: ["Mac"]
 aliases: [ "/2010/11/21/staying-flash-free-on-a-macbook-air/" ]
 ---
 

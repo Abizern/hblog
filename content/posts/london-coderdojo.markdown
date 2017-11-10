@@ -2,7 +2,7 @@
 title: "London CoderDojo"
 description: "My thoughts on mentoring."
 date: "2012-04-15"
-tags: ["programming"]
+tags: ["Programming"]
 aliases: [ "/2012/04/15/london-coderdojo/" ]
 ---
 
