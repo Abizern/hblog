@@ -1,7 +1,9 @@
 ---
-title: NSCoder Night London
-description: The first NSCoderNight in London
-tags: nscodernight
+title: "NSCoder Night London"
+description: "The first NSCoderNight in London"
+date: "2009-09-21"
+tags: [ "nscodernight" ]
+aliases: [ "/2009/09/21/nscoder-night-london/" ]
 ---
 
 It's surprising that there isn't an [NSCoder Night](http://nscodernight.com)
@@ -10,7 +12,7 @@ Mac Dev meeting once a month in Central London, but I think that there is a gap
 for an evening of coding in a social setting.
 
 So, in the spirit of "If you build it, they will come" I'm going to try and get
-this started. So, this Tuesday, September 22, from about 7, let's get together
+this started. This Tuesday, September 22, from about 7, let's get together
 at the [Bunch of Grapes](http://bunchofgrapesborough.com) pub just behind London
 Bridge Station
 [map](http://maps.google.co.uk/maps?source=s_q&hl=en&geocode=&q=bunch+of+grapes+borough&sll=51.50722,-0.089006&sspn=0.006357,0.016973&ie=UTF8&radius=0.36&split=1&filter=0&rq=1&ev=zi&ll=51.507454,-0.088019&spn=0.006691,0.016973&z=16&iwloc=A&iwd=1&cid=16443485918241557592&dtab=2). Bring
