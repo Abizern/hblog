@@ -1,7 +1,9 @@
 ---
-title: Missing Xcode Toolbar
-description: How to restore it
-tags: ios, osx, xcode
+title: "Missing Xcode Toolbar"
+description: "How to restore it."
+date: "2013-01-29"
+tags: ["ios", "macos", "xcode"]
+aliases: [ "/2013/01/29/missing-xcode-toolbar/" ]
 ---
 
 I'm sure you've been there.

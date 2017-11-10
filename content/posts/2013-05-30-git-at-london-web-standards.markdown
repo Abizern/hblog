@@ -1,7 +1,9 @@
 ---
-title: Git at London Web Standards
-description: Announcing my talk
-tags: git, presentations
+title: "Git at London Web Standards"
+description: "Announcing my talk at London Web Standards."
+date: "2013-05-30"
+tags: ["git", "presentations"]
+aliases: [ "/2013/05/30/git-at-london-web-standards/" ]
 ---
 
 London Web Standards is focusing on Git for their meeting on
