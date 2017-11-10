@@ -1,7 +1,7 @@
 ---
 title: "Hello Octopress"
 description: "Obligatory post announcing the move from Wordpress to Octopress."
-date: "2012-13-17"
+date: "2012-03-17"
 tags: [ "meta", "octopress" ]
 aliases: [ "/2012/03/17/hello-octopress/" ]
 ---

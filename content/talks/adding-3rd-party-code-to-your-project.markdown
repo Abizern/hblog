@@ -1,8 +1,8 @@
 ---
 title: "Adding 3rd Party Code To Your Project"
-description: "Talk from iOSCon 2014, London about using Git or CocoaPods to add dependencies to an Xcode project""
+description: "Talk from iOSCon 2014, London about using Git or CocoaPods to add dependencies to an Xcode project"
 date: "2014-05-15"
-tags: [ "git", "cocoapods", "submodules", "ioscon", "xcode"]
+tags: ["git", "cocoapods", "submodules", "ioscon", "xcode"]
 aliases: [ "/talks/adding-3rd-party-code-to-your-project/" ]
 type: "talk"
 ---
@@ -20,4 +20,3 @@ These are available on [SpeakerDeck](https://speakerdeck.com/abizern/adding-3rd-
 ### Video
 
 The video can be seen at [SkillsMatter](https://skillsmatter.com/skillscasts/5058-third-party-code)
-
