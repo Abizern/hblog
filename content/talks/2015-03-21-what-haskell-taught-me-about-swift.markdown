@@ -1,6 +1,10 @@
 ---
-title: What Haskell Taught Me About Swift
-description: My Swift Summit Talk from March 2015
+title: "What Haskell Taught Me About Swift"
+description: "My Swift Summit Talk from March 2015"
+date: "2015-03-21"
+tags: [ "swift", "haskell", "swiftsummit" ]
+aliases: [ "/talks/what-haskell-taught-me-about-swift/" ]
+type: "talk"
 ---
 
 ### Summary

@@ -1,6 +1,9 @@
 ---
-title: What Haskell Teaches Me About Writing Swift
-description: My talk from AltConf, San Francisco, June 2015.
+title: "What Haskell Teaches Me About Writing Swift"
+description: "My talk from AltConf, San Francisco, June 2015."
+date: "2015-06-11"
+tags: [ "haskell", "swift", "altconf" ]
+aliases: [ "/talks/what-haskell-teaches-me-about-writing-swift/" ]
 ---
 
 ### Summary
