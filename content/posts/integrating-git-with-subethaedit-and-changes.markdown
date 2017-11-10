@@ -1,5 +1,5 @@
 ---
-title: "Integrating Git with SubEthaEdit and Changes.app"
+title: "Integrating Git with SubEthaEdit and Changes App"
 description: "Adding an external diff app to SubEthaEdit."
 date: "2009-11-09"
 tags: ["SubEthaEdit", "Git"]
