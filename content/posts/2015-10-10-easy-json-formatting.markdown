@@ -1,7 +1,9 @@
 ---
-title: Easy JSON formatting
-tags: mac, programming, automator
-description: Set up an Automator service for easily pretty formatting JSON
+title: "Easy JSON formatting"
+description: "Set up an Automator service for easily pretty formatting JSON."
+date: "2015-10-10"
+tags: ["json", "mac", "programbming", "automator"]
+aliases: [ "/2015/10/10/easy-json-formatting/" ]
 ---
 
 Sometimes we want to format some JSON. Here's an easy way to set up a Service in

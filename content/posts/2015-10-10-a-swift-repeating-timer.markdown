@@ -1,7 +1,10 @@
 ---
-title: A Swift Repeating Timer
-tags: programming, swift
-description: A Swift function to create and start a timer dispatch source.
+title: "A Swift Repeating Timer"
+description: "A Swift function to create and start a timer dispatch source."
+date: "2015-10-10"
+tags: ["swift"]
+aliases: [ "/2015/10/10/a-swift-repeating-timer/" ]
+
 ---
 
 We frequently (excuse the pun) need to schedule a repeated action.

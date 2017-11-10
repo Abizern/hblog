@@ -1,7 +1,9 @@
 ---
-title: Debug Logging In Swift
-tags: swift
-description: Print strings to the console only when in Debug mode.
+title: "Debug Logging In Swift"
+description: "Print strings to the console only when in Debug mode."
+date: "2015-02-01"
+tags: ["swift", "xcode"]
+aliases: [ "/2015/02/01/debug-logging-in-swift/" ]
 ---
 
 In the last [iOSDevWeekly](https://iosdevweekly.com/issues/183) Dave Verwer
