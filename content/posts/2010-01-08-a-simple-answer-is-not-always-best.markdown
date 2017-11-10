@@ -1,14 +1,16 @@
 ---
-title: A Simple Answer Is Not Always Best
-description: Sometimes it's better to answer the actual, unspoken question.
-tags: programming
+title: "A Simple Answer Is Not Always Best"
+description: "Sometimes it's better to answer the actual, unspoken question."
+date: "2010-01-08"
+tags: ["programming"]
+aliases: [ "2010/01/08/a-simple-answer-is-not-always-best/" ]
 ---
 
 On New Year's eve, Dámasa asked me to calculate some fraction of a fraction and
 provide the answer as a fraction in eighths. The post had just arrived so I
 flipped over an envelope and started working it out.
 
-"Why do you need the answer in eighths?" I asked.
+"Why do you need the answer in eighths?" I asked, while making calculations.
 
 "Because I'm trying to convert a recipe and my scales only go down to eighths of an ounce."
 
@@ -63,5 +65,5 @@ working through calculating a tangent using deltas and differences tending to
 zero and how it led to the simpler method. I've long forgotten the hard way, but
 after that I was very good at calculus.
 
-Perhaps this is something to think about next time you see somebody ask how to
-write an application without using Interface Builder.
+Perhaps this is something to think about next time somebody asks how to
+write an application without using Interface Builder in Xcode.

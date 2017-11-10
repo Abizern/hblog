@@ -1,7 +1,9 @@
 ---
-title: Getting the address of a shortened URL
-description: A little tip
-tags: programming
+title: "Getting the address of a shortened URL"
+description: "Check a shortened URL before opening it."
+date: "2010-10-16"
+tags: ["url", "terminal"]
+aliases: [ "/2010/10/16/getting-the-address-of-a-shortened-url/" ]
 ---
 
 Many times you will see a shortened url but you aren't sure what it points
@@ -12,7 +14,7 @@ Pop open your terminal, or console, or whatever your command-line application is
 and type the following:
 
 ``` bash
-curl --head shorturl
+curl --head <shorturl_to_check>
 ```
 
 This pops up a short amount of useful information about the target url. For

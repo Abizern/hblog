@@ -1,6 +1,9 @@
 ---
-title: Renaming an Xcode Project
-tags: xcode
+title: "Renaming an Xcode Project"
+description: "How to rename an existing Xcode project."
+date: "2010-03-06"
+tags: ["xcode"]
+aliases: [ "/2010/03/06/renaming-an-xcode-project/" ]
 ---
 
 You may have occasion to rename an Xcode project.

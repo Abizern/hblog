@@ -1,7 +1,9 @@
 ---
-title: A Year Of Objective-C Snippets
-description: A Tumblr of daily tips
-tags: objc
+title: "A Year Of Objective-C Snippets"
+description: "A Tumblr of daily tips"
+date: "2010-02-27"
+tags: ["objc"]
+aliases: [ "/2010/02/27/a-year-of-objective-c-snippets/" ]
 ---
 
 Pieter Omvlee of [Bohemian Coding](http://www.bohemiancoding.com/) has been
