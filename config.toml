@@ -6,7 +6,7 @@ theme = "minimo"
 
 googleAnalytics = "UA-5015208-5"
 
-Paginate = 5
+Paginate = 8
 preserveTaxonomyNames = true
 
 enableRobotsTXT = true # generate robots.txt
