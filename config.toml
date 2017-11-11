@@ -34,11 +34,11 @@ keywords = "blog, personal, developer, swift, objectivec, ios, macos, haskell, g
 
 ## Social Accounts
 [params.social]
-github = "Abizern"
-instagram = "abizern"
-linkedin = "abizern"
 twitter = "abizern"
+github = "Abizern"
 stackoverflow = "abizern"
+linkedin = "abizern"
+instagram = "abizern"
 email = "abizern@abizern.org"
 
 ## Extras
