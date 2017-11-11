@@ -69,10 +69,33 @@ notes = "/notes/:title/"
 
 [[menu.main]]
 name = "Home"
-weight = -10
+weight = -100
 identifier = "home"
 url = "/"
 
+[[menu.main]]
+name = "About"
+weight = -90
+identifier = "about"
+url = "/about/"
+
+[[menu.main]]
+name = "Posts"
+weight = -80
+identifier = "posts"
+url = "/posts/"
+
+[[menu.main]]
+name = "Talks"
+weight = -70
+identifier = "talks"
+url = "/talks/"
+
+[[menu.main]]
+name = "Notes"
+weight = -20
+identifier = "notes"
+url = "/notes/"
 
 [blackfriday]
 hrefTargetBlank = true
