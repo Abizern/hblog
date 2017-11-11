@@ -14,6 +14,14 @@ title = "Abizer Nasir"
 
 theme = "goa"
 
+[permalinks]
+blog                = "/:year/:title/"
+talks               = "/talks/:year/:title/"
+notes               = "/notes/:title/"
+
+[taxonomies]
+tag = "tags"
+
 # Hugo Built-in Features
 # disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
 googleAnalytics = "UA-5015208-5"
@@ -85,13 +93,6 @@ highlightjsstyle = "dracula"
 # #pygmentsuseclasses  = true
 # pluralizelisttitles = false
 # googleAnalytics     = "UA-5015208-5"
-
-
-
-# [permalinks]
-# blog                = "/:year/:title/"
-# talks               = "/talks/:year/:title/"
-# notes               = "/notes/:title/"
 
 # # [taxonomies]
 # # tag                 = "tags"
