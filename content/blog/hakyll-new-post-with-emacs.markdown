@@ -18,7 +18,7 @@ Hakyll's site. But since I'm usually in Emacs when I want to write a new post, I
 thought it would be a good excuse to write a little lisp. And so, here is my
 first attempt.
 
-```commonlisp
+```lisp
 (defun hakyll-site-location ()
   "Return the location of the Hakyll files."
   "~/Sites/hblog/")

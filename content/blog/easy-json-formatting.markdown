@@ -68,7 +68,7 @@ read this.
 Of course, if you are using Emacs, you don't want to be grabbing the mouse to
 get to the action, here's a lisp function I use to format JSON in place:
 
-```commonlisp
+```lisp
 (defun json-format ()
   "Reformats the JSON in the region for humans."
   (interactive)

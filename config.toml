@@ -54,7 +54,7 @@ email = "abizern@abizern.org"
 copyright = "© 2009-2017 Abizer Nasir | [Some Rights Reserved](https://creativecommons.org/licenses/by-sa/4.0/)."
 poweredby = true
 highlightjs = true
-highlightjslanguages = ["haskell", "swift", "ruby"]                        # additional languages not included in the "common" set
+highlightjslanguages = ["haskell", "swift", "lisp"]                        # additional languages not included in the "common" set
 highlightjsstyle = "dracula"
 
 

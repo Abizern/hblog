@@ -15,9 +15,7 @@ Google Code Jam problem
 I've become more comfortable with Haskell since then, so here's an improved
 solution.
 
-<figure>
-
-``` haskell
+```haskell
 module Main where
 
 {-
@@ -41,9 +39,6 @@ main = do
     putStrLn $ "Case #" ++ show i ++ ": " ++ solution
 
 ```
-
-<figcaption>Improved Reverse Words With Haskell [view as gist]( https://gist.github.com/Abizern/3986006)</figcaption>
-</figure>
 
 I'm not one who believes that shorter, terser code is necessarily better, but
 that isn't what makes this version an improvement. Nor even the use of Monads;
