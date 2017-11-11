@@ -15,9 +15,9 @@ title = "Abizer Nasir"
 theme = "goa"
 
 [permalinks]
-blog                = "/:year/:title/"
-talks               = "/talks/:year/:title/"
-notes               = "/notes/:title/"
+blog = "/:year/:title/"
+talks = "/talks/:year/:title/"
+notes = "/notes/:title/"
 
 [taxonomies]
 tag = "tags"

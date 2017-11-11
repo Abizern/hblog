@@ -15,5 +15,5 @@
 	branch = master
 [submodule "themes/goa"]
 	path = themes/goa
-	url = https://github.com/shenoybr/hugo-goa.git
+	url = https://github.com/Abizern/hugo-goa.git
 	branch = master
