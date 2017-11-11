@@ -34,6 +34,7 @@ intro = "Contract iOS and macOS Developer."
 description = "I write modern, maintainable code using Swift, Xcode, MVC & a whole lotta love.<br />My opinions and £1 will buy me a small coffee."
 authorimage = "/avatar.jpg"
 dateformat = "Jan 2, 2006"
+showcomments = false
 
 ## Site Meta Settings
 [params.meta]
