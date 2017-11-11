@@ -21,8 +21,7 @@ A video of the talk, with synchronised slides can be seen at:
 
 ### Slides
 
-- Download the PDF directly from
-[http://downloads.abizern.org/WhatHaskellTaughtMeAboutSwift.pdf](http://downloads.abizern.org/WhatHaskellTaughtMeAboutSwift.pdf)
+- Download the PDF directly from [here](http://downloads.abizern.org/WhatHaskellTaughtMeAboutSwift.pdf)
 - View the slides on [SpeakerDeck](https://speakerdeck.com/abizern/what-haskell-taught-me-about-writing-swift)
 
 
