@@ -39,7 +39,7 @@ dateFormat = "January 2, 2006"
 listDateFormat = "2006, Jan 02"
 hideEntryNavigation = ["page"] # boolean / array of sections
 hideSocialMenu = false
-showReadingTime = true
+showReadingTime = false
 
 [params.opengraph.twitter]
 page = "" # Twitter page username
