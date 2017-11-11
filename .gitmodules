@@ -9,3 +9,7 @@
 	path = themes/cocoa
 	url = https://github.com/nishanths/cocoa-hugo-theme.git
 	branch = master
+[submodule "themes/cocoa-eh"]
+	path = themes/cocoa-eh
+	url = https://github.com/mtn/cocoa-eh-hugo-theme.git
+	branch = master

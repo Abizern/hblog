@@ -1,110 +1,84 @@
-baseURL = "http://abizern.org/"
-languageCode = "en-GB"
-title = "Abizern.org"
+baseurl             = "http://abizern.org/"
+builddrafts         = false
+canonifyurls        = true
+contentdir          = "content"
+languageCode        = "en-GB"
+layoutdir           = "layouts"
+publishdir          = "public"
+theme               = "cocoa-eh"
+author              = "Abizer Nasir"
+title               = "Abizern.org"
+#pygmentsuseclasses  = true
+pluralizelisttitles = false
+googleAnalytics     = "UA-5015208-5"
 
-theme = "minimo"
 
-googleAnalytics = "UA-5015208-5"
-
-Paginate = 8
-preserveTaxonomyNames = true
-
-enableRobotsTXT = true # generate robots.txt
-
-# Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
-pygmentsCodefences = true
-#pygmentsStyle = "monokai"
-pygmentsUseClasses = true
-
-# Missing translations will default to this content language
-defaultContentLanguage = "en"
-
-[params.info]
-description = "Opinions and £1 will get me a small coffee."
-title404 = "Oops! Nothing to see here."
-
-[params.assets]
-favicon = "favicon.ico"
-customCSS = ["css/custom.css"]
-customJS = ["js/custom.js"]
-gopher = "" # used in 404 template ( Generator: https://gopherize.me )
-
-[params.copyright]
-prefix = ""
-holder = "Abizer Nasir"
-startYear = "2009"
-suffix = ""
-
-[params.settings]
-# date & time format: https://golang.org/pkg/time/
-dateFormat = "January 2, 2006"
-listDateFormat = "2006, Jan 02"
-hideEntryNavigation = ["page"] # boolean / array of sections
-hideSocialMenu = false
-showReadingTime = false
-
-[params.opengraph.twitter]
-page = "" # Twitter page username
-
-[params.seo]
-# Title Separator: - – — · • * ⋆ | ~ « » < >
-titleSeparator = "•"
-
-[params.social]
-email = "abizern@abizern.org"
-github = "Abizern"
-instagram = "abizern"
-linkedin = "abizern"
-twitter = "abizern"
-
-[params.social.config]
-platforms = ["twitter", "github", "email", "linkedin", "instagram"]
-
-[taxonomies]
-tag = "tags"
 
 [permalinks]
-posts = "/:year/:title/"
-talks = "/talks/:year/:title/"
-notes = "/notes/:title/"
+blog                = "/:year/:title/"
+talks               = "/talks/:year/:title/"
+notes               = "/notes/:title/"
 
+[taxonomies]
+tag                 = "tags"
 
-[[menu.main]]
-name = "Home"
-weight = -100
-identifier = "home"
-url = "/"
+# [[menu.main]]
+# name                = "Home"
+# weight              = -120
+# identifier          = "home"
+# url                 = "/"
 
-[[menu.main]]
-name = "About"
-weight = -90
-identifier = "about"
-url = "/about/"
+# [[menu.main]]
+# name                = "About"
+# weight              = -110
+# identifier          = "about"
+# url                 = "/about/"
 
-[[menu.main]]
-name = "Posts"
-weight = -80
-identifier = "posts"
-url = "/posts/"
+# [[menu.main]]
+# name                = "Posts"
+# weight              = -100
+# identifier          = "posts"
+# url                 = "/posts/"
 
-[[menu.main]]
-name = "Talks"
-weight = -70
-identifier = "talks"
-url = "/talks/"
+# [[menu.main]]
+# name                = "Talks"
+# weight              = -90
+# identifier          = "talks"
+# url                 = "/talks/"
 
-[[menu.main]]
-name = "Notes"
-weight = -20
-identifier = "notes"
-url = "/notes/"
+# [[menu.main]]
+# name                = "Notes"
+# weight              = -80
+# identifier          = "notes"
+# url                 = "/notes/"
 
-[blackfriday]
-hrefTargetBlank = true
+[params]
+latestpostscount       = 8                             # how many posts to display on the home page
+author                 = "Abizer Nasir"
+dateform               = "Jan 2, 2006"
+dateformfull           = "January 2, 2006"
+description            = "Opinions and £1 will get me a small coffee."
+copyright              = "© 2009-2017 Abizer Nasir"
+copyrightUrl           = "https://creativecommons.org/licenses/by-sa/4.0/"
+faviconfile            = "favicon.png"
+logofile               = "avatar.jpg"
+#extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
 
-[languages]
-# edit this block for your own language
-[languages.en]
-lang = "en"
-languageName = "English"
-weight = 1
+email                  = "abizern@abizern.org"
+github                 = "Abizern"
+instagram              = "abizern"
+linkedin               = "abizern"
+twitter                = "abizern"
+noshowreadtime         = true                         # if true, don't show "<x> minutes read" in posts
+
+highlightjs            = true
+highlightjslanguages   = ["go", "haskell", "swift", "objectivec", "elm", "ruby"]                        # additional languages not included in the "common" set
+highlightjsStyle       = "dracula"
+
+piwik                  = false                         # If true, Piwik integration is enabled
+# piwik_url            = "//www.example.com/piwik/"    # URL to your Piwik installation. Must End with a slash
+# piwik_id             = 2                             # Id of your site in Piwik
+
+# avatar                 = "img/profile.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+# gravatar             = "f28c4835c9e2277b6e04b86574532a2d"
+

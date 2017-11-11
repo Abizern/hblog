@@ -1,0 +1,110 @@
+baseURL = "http://abizern.org/"
+languageCode = "en-GB"
+title = "Abizern.org"
+
+theme = "minimo"
+
+googleAnalytics = "UA-5015208-5"
+
+Paginate = 8
+preserveTaxonomyNames = true
+
+enableRobotsTXT = true # generate robots.txt
+
+# Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
+pygmentsCodefences = true
+#pygmentsStyle = "monokai"
+pygmentsUseClasses = true
+
+# Missing translations will default to this content language
+defaultContentLanguage = "en"
+
+[params.info]
+description = "Opinions and £1 will get me a small coffee."
+title404 = "Oops! Nothing to see here."
+
+[params.assets]
+favicon = "favicon.ico"
+customCSS = ["css/custom.css"]
+customJS = ["js/custom.js"]
+gopher = "" # used in 404 template ( Generator: https://gopherize.me )
+
+[params.copyright]
+prefix = ""
+holder = "Abizer Nasir"
+startYear = "2009"
+suffix = ""
+
+[params.settings]
+# date & time format: https://golang.org/pkg/time/
+dateFormat = "January 2, 2006"
+listDateFormat = "2006, Jan 02"
+hideEntryNavigation = ["page"] # boolean / array of sections
+hideSocialMenu = false
+showReadingTime = false
+
+[params.opengraph.twitter]
+page = "" # Twitter page username
+
+[params.seo]
+# Title Separator: - – — · • * ⋆ | ~ « » < >
+titleSeparator = "•"
+
+[params.social]
+email = "abizern@abizern.org"
+github = "Abizern"
+instagram = "abizern"
+linkedin = "abizern"
+twitter = "abizern"
+
+[params.social.config]
+platforms = ["twitter", "github", "email", "linkedin", "instagram"]
+
+[taxonomies]
+tag = "tags"
+
+[permalinks]
+posts = "/:year/:title/"
+talks = "/talks/:year/:title/"
+notes = "/notes/:title/"
+
+
+[[menu.main]]
+name = "Home"
+weight = -100
+identifier = "home"
+url = "/"
+
+[[menu.main]]
+name = "About"
+weight = -90
+identifier = "about"
+url = "/about/"
+
+[[menu.main]]
+name = "Posts"
+weight = -80
+identifier = "posts"
+url = "/posts/"
+
+[[menu.main]]
+name = "Talks"
+weight = -70
+identifier = "talks"
+url = "/talks/"
+
+[[menu.main]]
+name = "Notes"
+weight = -20
+identifier = "notes"
+url = "/notes/"
+
+[blackfriday]
+hrefTargetBlank = true
+
+[languages]
+# edit this block for your own language
+[languages.en]
+lang = "en"
+languageName = "English"
+weight = 1
