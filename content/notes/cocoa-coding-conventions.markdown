@@ -3,7 +3,6 @@ title: "Cocoa Coding Conventions"
 description: "Consistent code is more readable. These are my choices, feel free to use them or adapt them to your own style."
 tag: [ "Cocoa", "Code-Style", "Objective-C"]
 aliases: [ "/cocoa-coding-conventions/" ]
-weight: -90
 ---
 
 ## Purpose

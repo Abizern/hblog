@@ -3,7 +3,6 @@ title: "Emacs Notes"
 description: "Keyboard shortcuts and usage notes."
 tags: [ "Emacs"]
 aliases: [ "/emacs-notes/" ]
-weight: -100
 ---
 
 ## Installation
