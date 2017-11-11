@@ -13,3 +13,7 @@
 	path = themes/cocoa-eh
 	url = https://github.com/mtn/cocoa-eh-hugo-theme.git
 	branch = master
+[submodule "themes/goa"]
+	path = themes/goa
+	url = https://github.com/shenoybr/hugo-goa.git
+	branch = master
