@@ -5,3 +5,7 @@
 	path = public
 	url = https://github.com/Abizern/abizern.github.com.git
 	branch = master
+[submodule "themes/cocoa"]
+	path = themes/cocoa
+	url = https://github.com/nishanths/cocoa-hugo-theme.git
+	branch = master
