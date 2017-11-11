@@ -1,9 +1,8 @@
 ---
 title: About Me
-description: iOS and macOS developer in London. But really, I'm just this guy, you know?
+description: iOS and macOS contractor in London. But really, I'm just this guy, you know?
+type: about
 ---
-
-## About
 
 ![Avatars](/images/avatars.jpg)
 
