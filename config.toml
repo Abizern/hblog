@@ -1,78 +1,152 @@
-baseurl             = "http://abizern.org/"
-builddrafts         = false
-canonifyurls        = true
-contentdir          = "content"
-languageCode        = "en-GB"
-layoutdir           = "layouts"
-publishdir          = "public"
-theme               = "cocoa-eh"
-author              = "Abizer Nasir"
-title               = "Abizern.org"
-#pygmentsuseclasses  = true
-pluralizelisttitles = false
-googleAnalytics     = "UA-5015208-5"
+## Basic Configuration
 
+baseurl = "http://abizern.org" 
+builddrafts = false
+canonifyurls = false
+languageCode = "en-GB"
 
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
 
-[permalinks]
-blog                = "/:year/:title/"
-talks               = "/talks/:year/:title/"
-notes               = "/notes/:title/"
+author = "Abizer Nasir"
+title = "Abizer Nasir"
 
-# [taxonomies]
-# tag                 = "tags"
+theme = "goa"
 
-# [[menu.main]]
-# name                = "Home"
-# weight              = -120
-# identifier          = "home"
-# url                 = "/"
+# Hugo Built-in Features
+# disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "UA-5015208-5"
+enableRobotsTXT = true
 
-# [[menu.main]]
-# name                = "About"
-# weight              = -110
-# identifier          = "about"
-# url                 = "/about/"
-
-# [[menu.main]]
-# name                = "Posts"
-# weight              = -100
-# identifier          = "posts"
-# url                 = "/posts/"
-
-# [[menu.main]]
-# name                = "Talks"
-# weight              = -90
-# identifier          = "talks"
-# url                 = "/talks/"
-
-# [[menu.main]]
-# name                = "Notes"
-# weight              = -80
-# identifier          = "notes"
-# url                 = "/notes/"
-
+## Site Settings
 [params]
-latestpostscount       = 8                             # how many posts to display on the home page
-author                 = "Abizer Nasir"
-dateform               = "Jan 2, 2006"
-dateformfull           = "January 2, 2006"
-description            = "Opinions and £1 will get me a small coffee."
-copyright              = "© 2009-2017 Abizer Nasir"
-copyrightUrl           = "https://creativecommons.org/licenses/by-sa/4.0/"
-faviconfile            = "favicon.png"
-logofile               = "avatar.jpg"
-#extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
+author = "Abizer Nasir"
+intro = "Contract iOS and macOS Developer."
+description = "I write modern, maintainable code using Swift, Xcode, MVC & a whole lotta love.<br />My opinions and £1 will buy me a small coffee."
+authorimage = "/avatar.jpg"
+dateformat = "Jan 2, 2006"
 
-email                  = "abizern@abizern.org"
-github                 = "Abizern"
-instagram              = "abizern"
-linkedin               = "abizern"
-twitter                = "abizern"
-readingtime            = false
+## Site Meta Settings
+[params.meta]
+description = "Developer and personal blog of Abizer Nasir; iOS and macOS contractor in London."
+keywords = "blog, personal, developer, swift, objectivec, ios, macos, haskell, git"
 
-highlightjs            = true
-highlightjslanguages   = ["haskell", "swift", "ruby"]                        # additional languages not included in the "common" set
-highlightjsstyle       = "Dracula"
+## Social Accounts
+[params.social]
+github = "Abizern"
+instagram = "abizern"
+linkedin = "abizern"
+twitter = "abizern"
+stackoverflow = "abizern"
+email = "abizern@abizern.org"
+
+## Extras
+[params.extra]
+copyright = "© 2009-2017 Abizer Nasir | [Some Rights Reserved](https://creativecommons.org/licenses/by-sa/4.0/)."
+poweredby = true
+highlightjs = true
+highlightjslanguages = ["haskell", "swift", "ruby"]                        # additional languages not included in the "common" set
+highlightjsstyle = "dracula"
+
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+[[menu.main]]
+    name = "Talks"
+    identifier = "talks"
+    weight = 300
+    url = "/talks/"
+[[menu.main]]
+    name = "Notes"
+    identifier = "notes"
+    weight = 400
+    url = "/notes/"
+
+# baseurl             = "http://abizern.org/"
+# builddrafts         = false
+# canonifyurls        = true
+# contentdir          = "content"
+# languageCode        = "en-GB"
+# layoutdir           = "layouts"
+# publishdir          = "public"
+# theme               = "cocoa-eh"
+# author              = "Abizer Nasir"
+# title               = "Abizern.org"
+# #pygmentsuseclasses  = true
+# pluralizelisttitles = false
+# googleAnalytics     = "UA-5015208-5"
+
+
+
+# [permalinks]
+# blog                = "/:year/:title/"
+# talks               = "/talks/:year/:title/"
+# notes               = "/notes/:title/"
+
+# # [taxonomies]
+# # tag                 = "tags"
+
+# # [[menu.main]]
+# # name                = "Home"
+# # weight              = -120
+# # identifier          = "home"
+# # url                 = "/"
+
+# # [[menu.main]]
+# # name                = "About"
+# # weight              = -110
+# # identifier          = "about"
+# # url                 = "/about/"
+
+# # [[menu.main]]
+# # name                = "Posts"
+# # weight              = -100
+# # identifier          = "posts"
+# # url                 = "/posts/"
+
+# # [[menu.main]]
+# # name                = "Talks"
+# # weight              = -90
+# # identifier          = "talks"
+# # url                 = "/talks/"
+
+# # [[menu.main]]
+# # name                = "Notes"
+# # weight              = -80
+# # identifier          = "notes"
+# # url                 = "/notes/"
+
+# [params]
+# latestpostscount       = 8                             # how many posts to display on the home page
+# author                 = "Abizer Nasir"
+# dateform               = "Jan 2, 2006"
+# dateformfull           = "January 2, 2006"
+# description            = "Opinions and £1 will get me a small coffee."
+# copyright              = "© 2009-2017 Abizer Nasir"
+# copyrightUrl           = ""
+# faviconfile            = "favicon.png"
+# logofile               = "avatar.jpg"
+# #extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
+
+# email                  = "abizern@abizern.org"
+# github                 = "Abizern"
+# instagram              = "abizern"
+# linkedin               = "abizern"
+# twitter                = "abizern"
+# readingtime            = false
+
+# highlightjs            = true
+# highlightjslanguages   = ["haskell", "swift", "ruby"]                        # additional languages not included in the "common" set
+# highlightjsstyle       = "Dracula"
 
  
