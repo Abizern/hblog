@@ -1,7 +1,6 @@
 ---
-title: About Me
+title: About
 description: iOS and macOS contractor in London. But really, I'm just this guy, you know?
-type: about
 ---
 
 ![Avatars](/images/avatars.jpg)

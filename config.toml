@@ -19,8 +19,8 @@ blog                = "/:year/:title/"
 talks               = "/talks/:year/:title/"
 notes               = "/notes/:title/"
 
-[taxonomies]
-tag                 = "tags"
+# [taxonomies]
+# tag                 = "tags"
 
 # [[menu.main]]
 # name                = "Home"
@@ -69,16 +69,10 @@ github                 = "Abizern"
 instagram              = "abizern"
 linkedin               = "abizern"
 twitter                = "abizern"
-noshowreadtime         = true                         # if true, don't show "<x> minutes read" in posts
+readingtime            = false
 
 highlightjs            = true
-highlightjslanguages   = ["go", "haskell", "swift", "objectivec", "elm", "ruby"]                        # additional languages not included in the "common" set
-highlightjsStyle       = "dracula"
+highlightjslanguages   = ["haskell", "swift", "ruby"]                        # additional languages not included in the "common" set
+highlightjsstyle       = "Dracula"
 
-piwik                  = false                         # If true, Piwik integration is enabled
-# piwik_url            = "//www.example.com/piwik/"    # URL to your Piwik installation. Must End with a slash
-# piwik_id             = 2                             # Id of your site in Piwik
-
-# avatar                 = "img/profile.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
-# gravatar             = "f28c4835c9e2277b6e04b86574532a2d"
-
+ 
