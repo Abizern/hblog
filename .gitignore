@@ -10,7 +10,7 @@ _site
 .sass-cache/
 
 # Actual site repository, but not a submodule
-publish
+public
 
 # Backup files
 \#*#
