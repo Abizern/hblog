@@ -1,23 +1,15 @@
 # hblog
 
-Source that uses [Hakyll](http://jaspervdj.be/hakyll/) to generate the static pages for [abizern.org](http://abizern.org)
+Source that uses [Hugo](http://gohugo.io) to generate the static pages for [abizern.org](http://abizern.org)
 
-Since the binary is built dynamically, make sure that hakyll is installed or
-updated with
+Since the binary is built dynamically, make sure that Hugo is installed or updated through homebrew
 
-    cabal install hakyll --enable-shared
-
-## Dependencies:
-
-### Ruby
-
-- sass
-- compass
+    brew upgrade hugo
 
 ### setup
 
-- _publish directory should be setup up as a clone of the upstream deployment
-  repository with the remote name of `github`. This is not a submodule and the
+- public directory should be setup up as a clone of the upstream deployment
+  repository with the default remote name of `origin`. This is not a submodule and the
   relevant entry has been made to the .gitignore file.
 
 ## License
