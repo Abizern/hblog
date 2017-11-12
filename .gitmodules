@@ -1,18 +1,3 @@
-[submodule "themes/minimo"]
-	path = themes/minimo
-	url = https://github.com/MunifTanjim/minimo.git
-[submodule "public"]
-	path = public
-	url = https://github.com/Abizern/abizern.github.com.git
-	branch = master
-[submodule "themes/cocoa"]
-	path = themes/cocoa
-	url = https://github.com/nishanths/cocoa-hugo-theme.git
-	branch = master
-[submodule "themes/cocoa-eh"]
-	path = themes/cocoa-eh
-	url = https://github.com/mtn/cocoa-eh-hugo-theme.git
-	branch = master
 [submodule "themes/goa"]
 	path = themes/goa
 	url = https://github.com/Abizern/hugo-goa.git
