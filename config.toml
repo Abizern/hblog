@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "http://abizern.org" 
+baseurl = "http://abizern.org"
 builddrafts = false
 canonifyurls = false
 languageCode = "en-GB"
@@ -52,7 +52,7 @@ email = "abizern@abizern.org"
 
 ## Extras
 [params.extra]
-copyright = "© 2009-2017 Abizer Nasir | [Some Rights Reserved](https://creativecommons.org/licenses/by-sa/4.0/)."
+copyright = "© 2009-2019 Abizer Nasir | [Some Rights Reserved](https://creativecommons.org/licenses/by-sa/4.0/)."
 poweredby = true
 highlightjs = true
 highlightjslanguages = ["haskell", "swift", "lisp"]                        # additional languages not included in the "common" set
@@ -150,5 +150,3 @@ highlightjsstyle = "dracula"
 # highlightjs            = true
 # highlightjslanguages   = ["haskell", "swift", "ruby"]                        # additional languages not included in the "common" set
 # highlightjsstyle       = "Dracula"
-
- 
